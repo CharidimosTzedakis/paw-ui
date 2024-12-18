@@ -1,0 +1,13 @@
+.catViewRow {
+  //margin: 0 !important;
+  padding: 2em;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); // Ensures responsive layout
+  gap: 16px; // Adjust spacing between grid items
+}

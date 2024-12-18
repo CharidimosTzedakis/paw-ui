@@ -1,0 +1,29 @@
+.light-theme {
+  --bg-color: #fff8e1;
+  --header-bg: #ffc107;
+  --card-bg: #ffffff;
+  --text-primary: #3e2723;
+  --text-secondary: #6d4c41;
+  --accent: #ff7043;
+  --highlight: #4caf50;
+}
+
+/* Dark Theme */
+.dark-theme {
+  --bg-color: #263238;
+  --header-bg: #37474f;
+  --card-bg: #455a64;
+  --text-primary: #ffffff;
+  --text-secondary: #b0bec5;
+  --accent: #ff7043;
+  --highlight: #81c784;
+}
+:global {
+  #root {
+    height: 100%;
+  }
+}
+
+.appLayout {
+  height: 100%;
+}
