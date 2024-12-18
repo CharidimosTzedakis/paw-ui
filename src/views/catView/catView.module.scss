@@ -11,3 +11,16 @@
   ); // Ensures responsive layout
   gap: 16px; // Adjust spacing between grid items
 }
+
+.loadMoreButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.loadMoreButton {
+  width: 100%;
+  height: 40px;
+  max-width: 1200px;
+  margin-left: 2em;
+  margin-right: 2em;
+}

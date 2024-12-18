@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Layout, Menu, ConfigProvider, Switch } from "antd";
+import { BulbOutlined, MoonOutlined } from "@ant-design/icons";
 import CatView from "./views/catView";
 import "antd/dist/reset.css"; //antd css reset
 import "./app.module.scss";
@@ -48,8 +49,8 @@ function App() {
           <Switch
             checked={theme === "dark"}
             onChange={toggleTheme}
-            checkedChildren="Night"
-            unCheckedChildren="Day"
+            checkedChildren={<MoonOutlined />}
+            unCheckedChildren={<BulbOutlined />}
           />
         </Header>
         <Content>
