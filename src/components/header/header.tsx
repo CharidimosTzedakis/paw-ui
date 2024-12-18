@@ -1,12 +1,13 @@
 import { Layout, Menu, Switch } from "antd";
+import { Link } from "wouter";
 import { BulbOutlined, MoonOutlined } from "@ant-design/icons";
 
 const { Header } = Layout;
 
 const items = [
-  { key: "1", label: "Cats" },
-  { key: "2", label: "Breeds" },
-  { key: "3", label: "Favourites" },
+  { key: "1", label: <Link href="/">Cats</Link> },
+  { key: "2", label: <Link href="/breeds">Breeds</Link> },
+  { key: "3", label: <Link href="/favourites">Favourites</Link> },
 ];
 
 export default function AppHeader({

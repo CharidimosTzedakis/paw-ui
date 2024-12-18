@@ -1,3 +1,3 @@
 export default function FavouritesView() {
-  return <div>BreedView</div>;
+  return <div>FavouritesView</div>;
 }
