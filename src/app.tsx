@@ -1,18 +1,12 @@
 import { useState } from "react";
-import { Layout, Menu, ConfigProvider, Switch } from "antd";
-import { BulbOutlined, MoonOutlined } from "@ant-design/icons";
+import { Layout, ConfigProvider } from "antd";
+import AppHeader from "@components/header";
 import CatView from "./views/catView";
+import { lightTheme, darkTheme } from "./theme";
 import "antd/dist/reset.css"; //antd css reset
 import "./app.module.scss";
-import { lightTheme, darkTheme } from "./theme";
 
-const { Header, Content, Footer } = Layout;
-
-const items = [
-  { key: "1", label: "Cats" },
-  { key: "2", label: "Breeds" },
-  { key: "3", label: "Favourites" },
-];
+const { Content, Footer } = Layout;
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -28,31 +22,7 @@ function App() {
       theme={theme === "light" ? { ...lightTheme } : { ...darkTheme }}
     >
       <Layout style={{ minHeight: "100vh" }}>
-        <Header
-          style={{
-            display: "flex",
-            alignItems: "center",
-          }}
-        >
-          <Menu
-            theme="dark"
-            mode="horizontal"
-            defaultSelectedKeys={["1"]}
-            items={items}
-            style={{
-              flex: 1,
-              minWidth: 0,
-              fontSize: "1.2rem",
-              fontWeight: 600,
-            }}
-          />
-          <Switch
-            checked={theme === "dark"}
-            onChange={toggleTheme}
-            checkedChildren={<MoonOutlined />}
-            unCheckedChildren={<BulbOutlined />}
-          />
-        </Header>
+        <AppHeader theme={theme} toggleTheme={toggleTheme} />
         <Content>
           <CatView />
         </Content>
