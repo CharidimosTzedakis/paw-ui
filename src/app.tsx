@@ -5,6 +5,7 @@ import AppHeader from "@components/header";
 import CatView from "@views/catView";
 import BreedView from "@views/breedView";
 import FavouritesView from "@views/favouritesView";
+import CatDetailsModal from "@components/catDetailsModal";
 import { lightTheme, darkTheme } from "./theme";
 import "antd/dist/reset.css"; //antd css reset
 import "./app.module.scss";
@@ -28,11 +29,16 @@ function App() {
         <AppHeader theme={theme} toggleTheme={toggleTheme} />
         <Content>
           <Switch>
-            <Route path="/" component={CatView} />
+            <Route path="/cats" nest>
+              <CatView />
+              <Route path="/cats/:id">
+                {(params) => <CatDetailsModal id={params.id} />}
+              </Route>
+            </Route>
             <Route path="/breeds" component={BreedView} />
             <Route path="/favourites" component={FavouritesView} />
             <Route>
-              <Redirect to="/" />
+              <Redirect to="/cats" />
             </Route>
           </Switch>
         </Content>

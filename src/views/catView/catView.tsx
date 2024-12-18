@@ -35,7 +35,7 @@ const CatView = () => {
     <div>
       <div className={classes.catViewRow}>
         {catImages.map((catImage) => (
-          <CatCard key={catImage.id} imageUrl={catImage.url} />
+          <CatCard key={catImage.id} id={catImage.id} imageUrl={catImage.url} />
         ))}
       </div>
       <div className={classes.loadMoreButtonContainer}>
