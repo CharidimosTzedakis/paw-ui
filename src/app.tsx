@@ -6,6 +6,7 @@ import CatView from "@views/catView";
 import BreedView from "@views/breedView";
 import FavouritesView from "@views/favouritesView";
 import CatDetailsModal from "@components/catDetailsModal";
+import BreedExploreModal from "@components/exploreBreedModal";
 import { lightTheme, darkTheme } from "./theme";
 import "antd/dist/reset.css"; //antd css reset
 import "./app.module.scss";
@@ -35,7 +36,13 @@ function App() {
                 {(params) => <CatDetailsModal id={params.id} />}
               </Route>
             </Route>
-            <Route path="/breeds" component={BreedView} />
+            <Route path="/breeds" nest>
+              <BreedView />
+              <Route path="/:id">
+                {(params) => <BreedExploreModal breedId={params.id} />}
+              </Route>
+            </Route>
+
             <Route path="/favourites" component={FavouritesView} />
             <Route>
               <Redirect to="/cats" />
