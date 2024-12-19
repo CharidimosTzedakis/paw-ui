@@ -1,11 +1,25 @@
 .catDetailsModal {
   :global(.ant-modal-content) {
     height: 90vh;
+    overflow: auto;
 
-    img {
+    :global(.ant-image) {
       width: 100%;
-      height: 500px;
-      object-fit: cover;
+
+      img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+      }
     }
+
+    .breedInfoTitle {
+      margin-top: 1em;
+    }
+  }
+
+  .imageSkeleton {
+    width: 100% !important;
+    height: 500px !important;
   }
 }

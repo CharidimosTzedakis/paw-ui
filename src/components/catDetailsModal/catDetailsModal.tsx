@@ -1,14 +1,16 @@
 import { useState, useEffect } from "react";
-import { Modal, Image } from "antd";
+import { Modal, Typography, Skeleton } from "antd";
 import { useLocation } from "wouter";
 import theCatAPI from "@api/catApiClient";
 import type { Image as CatImage, Breed } from "@api/types";
-import BreedDetails from "./BreedDetails";
+import CatDetailsModalContent from "./catDetailsModalContent";
 import classes from "./catDetailsModal.module.scss";
+
+const { Title } = Typography;
 
 export default function CatDetailsModal({ id }: { id: string }) {
   const [, setLocation] = useLocation();
-  const [catImage, setCatImage] = useState<CatImage>();
+  const [catImage, setCatImage] = useState<CatImage | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
   const handleClose = () => {
@@ -29,25 +31,32 @@ export default function CatDetailsModal({ id }: { id: string }) {
       });
   }, [id]);
 
+  const breeds = catImage?.breeds;
+
   return (
     <Modal
-      title="Cat details"
+      title={<Title level={2}>Cat details</Title>}
       className={classes.catDetailsModal}
-      loading={isLoading}
       open
       footer={null}
       onCancel={handleClose}
       style={{ top: 20 }}
       width={800}
     >
-      <Image src={catImage?.url} />
-      {catImage?.breeds?.map((breed) => {
-        return (
-          <div>
-            <BreedDetails breed={breed as Breed} />
-          </div>
-        );
-      })}
+      {isLoading ? (
+        <>
+          <Skeleton.Image active className={classes.imageSkeleton} />
+          <Title level={3} className={classes.breedInfoTitle}>
+            Breed information
+          </Title>
+          <Skeleton paragraph={{ rows: 4 }} />
+        </>
+      ) : (
+        <CatDetailsModalContent
+          url={catImage?.url}
+          breeds={breeds as Breed[]}
+        />
+      )}
     </Modal>
   );
 }
