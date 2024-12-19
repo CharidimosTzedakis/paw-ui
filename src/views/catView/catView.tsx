@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import CatCard from "@components/catCard";
 import { Button } from "antd";
 import theCatAPI from "@api/catApiClient";
-import type { Image as CatImageType } from "@api/types";
+import type { Image as CatImage } from "@api/types";
 import classes from "./catView.module.scss";
 
 const CatView = () => {
-  const [catImages, setCatImages] = useState<CatImageType[]>([]);
+  const [catImages, setCatImages] = useState<CatImage[]>([]);
   const [fetched, setFetched] = useState(false);
 
   const handleLoadMore = () => {
