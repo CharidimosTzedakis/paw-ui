@@ -13,10 +13,6 @@ export default function CatDetailsModal({ id }: { id: string }) {
   const [catImage, setCatImage] = useState<CatImage | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  const handleClose = () => {
-    setLocation("/");
-  };
-
   useEffect(() => {
     theCatAPI.images
       .getImage(id)
@@ -39,7 +35,9 @@ export default function CatDetailsModal({ id }: { id: string }) {
       className={classes.catDetailsModal}
       open
       footer={null}
-      onCancel={handleClose}
+      onCancel={() => {
+        setLocation("/");
+      }}
       style={{ top: 20 }}
       width={800}
     >

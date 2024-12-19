@@ -1,0 +1,18 @@
+.breedViewContainer {
+  padding: 2em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.listItem {
+  font-size: 1.2em;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #81c784;
+  }
+}

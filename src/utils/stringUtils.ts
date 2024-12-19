@@ -1,7 +1,7 @@
 export function snakeToTitleCase(snake: string): string {
   return snake
     .split("_")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()) // Capitalize the first letter of each word
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join(" ");
 }
 

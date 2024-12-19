@@ -11,6 +11,7 @@ export default defineConfig({
       "@views": path.resolve(__dirname, "./src/views"),
       "@test": path.resolve(__dirname, "./src/test"),
       "@utils": path.resolve(__dirname, "./src/utils"),
+      "@constants": path.resolve(__dirname, "./src/constants"),
     },
   },
   plugins: [react()],
