@@ -9,7 +9,7 @@ export default function CatCard({
   imageUrl: string;
 }) {
   return (
-    <Link href={`/cats/${id}`}>
+    <Link href={`/${id}`}>
       <Card
         bordered
         style={{

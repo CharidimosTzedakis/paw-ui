@@ -31,7 +31,7 @@ function App() {
           <Switch>
             <Route path="/cats" nest>
               <CatView />
-              <Route path="/cats/:id">
+              <Route path="/:id">
                 {(params) => <CatDetailsModal id={params.id} />}
               </Route>
             </Route>
