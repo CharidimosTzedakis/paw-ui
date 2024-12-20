@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Modal, Image, Typography, Skeleton } from "antd";
 import theCatAPI from "@api/catApiClient";
-import { useLocation } from "wouter";
+import { Link, useLocation } from "wouter";
 import type { Image as CatImage } from "@thatapicompany/thecatapi/dist/types";
 import type { AvailableBreedsEnumType } from "@api/types";
 import classes from "./exploreBreedModal.module.scss";
@@ -60,7 +60,9 @@ export default function ExploreBreedModal({
               <Skeleton.Image key={index} active />
             ))
           : catImages?.map((image: CatImage) => (
-              <Image key={image.url} src={image.url} preview={false} />
+              <Link to={`../../cats/${image.id}`}>
+                <Image key={image.url} src={image.url} preview={false} />
+              </Link>
             ))}
       </div>
     </Modal>
