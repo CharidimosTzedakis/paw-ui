@@ -34,7 +34,7 @@ export default function CatDetailsModal({ id }: { id: string }) {
       open
       footer={null}
       onCancel={() => {
-        setLocation("..");
+        setLocation("");
       }}
       style={{ top: 20 }}
       width={800}
