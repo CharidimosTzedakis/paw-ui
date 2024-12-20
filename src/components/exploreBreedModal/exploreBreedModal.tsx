@@ -27,12 +27,10 @@ export default function ExploreBreedModal({
       })
       .then((images) => {
         setCatImages(images);
+        setIsLoading(false);
       })
       .catch((error) => {
         console.log(error);
-      })
-      .finally(() => {
-        setIsLoading(false);
       });
   }, [breedId]);
 

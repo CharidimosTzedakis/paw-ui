@@ -18,12 +18,10 @@ export default function CatDetailsModal({ id }: { id: string }) {
       .getImage(id)
       .then((image) => {
         setCatImage(image);
+        setIsLoading(false);
       })
       .catch((error) => {
         console.log(error);
-      })
-      .finally(() => {
-        setIsLoading(false);
       });
   }, [id]);
 
