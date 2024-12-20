@@ -6,6 +6,12 @@
 
 .listItem {
   font-size: 1.2em;
+  border-block-end: 1px solid #81c784 !important;
+
+  &:first-child {
+    border-block-start: 1px solid #81c784 !important;
+    margin-top: 2em;
+  }
 
   &:hover {
     cursor: pointer;
@@ -14,5 +20,11 @@
   &:hover,
   &:focus {
     background-color: #81c784;
+  }
+}
+
+:global {
+  .ant-list-header {
+    border: none !important;
   }
 }

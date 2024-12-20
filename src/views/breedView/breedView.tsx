@@ -4,7 +4,7 @@ import { useLocation } from "wouter";
 import { availableBreeds } from "@api/constants/availableBreeds";
 import classes from "./breedView.module.scss";
 
-const { Title } = Typography;
+const { Title, Text } = Typography;
 
 export default function BreedView() {
   const [, setLocation] = useLocation();
@@ -18,7 +18,12 @@ export default function BreedView() {
     <div className={classes.breedViewContainer}>
       <List
         size="large"
-        header={<Title level={2}>Cat Breeds</Title>}
+        header={
+          <>
+            <Title level={2}>Cat Breeds</Title>
+            <Text>Select one of the following available breeds to explore</Text>
+          </>
+        }
         dataSource={listItems}
         renderItem={(item) => (
           <List.Item
