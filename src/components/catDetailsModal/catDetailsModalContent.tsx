@@ -1,7 +1,7 @@
 import { Image, Typography } from "antd";
-import classes from "@components/catDetailsModal/catDetailsModal.module.scss";
-import BreedDetails from "@components/catDetailsModal/breedDetails.tsx";
+import BreedDetails from "@components/catDetailsModal/breedDetails";
 import type { Breed } from "@api/types";
+import classes from "@components/catDetailsModal/catDetailsModal.module.scss";
 
 const { Title, Text } = Typography;
 

@@ -1,0 +1,16 @@
+.exploreBreedModalTitle {
+  margin-bottom: 0;
+}
+
+.exploreBreedModalContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+
+  img {
+    width: 300px !important;
+    height: 200px !important;
+    object-fit: cover;
+  }
+}
