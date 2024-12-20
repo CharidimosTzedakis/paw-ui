@@ -49,7 +49,7 @@ export default function ExploreBreedModal({
                   availableBreeds[key as keyof typeof availableBreeds] ===
                   breedId,
               ),
-            )}
+            ).replace(/_/g, " ")}
           </Title>
           <Text>
             The following cats are from the breed. Click on them for more info!
@@ -66,7 +66,11 @@ export default function ExploreBreedModal({
       <div className={classes.exploreBreedModalContent}>
         {isLoading
           ? Array.from({ length: 10 }).map((_, index) => (
-              <Skeleton.Image key={index} active />
+              <Skeleton.Image
+                key={index}
+                active
+                className={classes.exploreBreedModalSkeleton}
+              />
             ))
           : catImages?.map((image: CatImage) => (
               <Link to={`../../cats/${image.id}`}>
