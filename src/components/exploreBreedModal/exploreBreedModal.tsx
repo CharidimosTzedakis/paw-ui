@@ -2,8 +2,10 @@ import { useState, useEffect } from "react";
 import { Modal, Image, Typography, Skeleton } from "antd";
 import theCatAPI from "@api/catApiClient";
 import { Link, useLocation } from "wouter";
+import { capitalize } from "lodash";
 import type { Image as CatImage } from "@thatapicompany/thecatapi/dist/types";
 import type { AvailableBreedsEnumType } from "@api/types";
+import { availableBreeds } from "@api/constants/availableBreeds";
 import classes from "./exploreBreedModal.module.scss";
 
 const { Title, Text } = Typography;
@@ -40,7 +42,14 @@ export default function ExploreBreedModal({
       title={
         <>
           <Title level={2} className={classes.exploreBreedModalTitle}>
-            Explore Breed {breedId}
+            Explore Breed&nbsp;
+            {capitalize(
+              Object.keys(availableBreeds).find(
+                (key) =>
+                  availableBreeds[key as keyof typeof availableBreeds] ===
+                  breedId,
+              ),
+            )}
           </Title>
           <Text>
             The following cats are from the breed. Click on them for more info!

@@ -32,7 +32,8 @@ export default function BreedView() {
             onKeyUp={(e) => {
               if (e.key === "Enter" || e.key === " ") {
                 e.preventDefault();
-                console.log("Card selected via keyboard!");
+                const breedId = e.currentTarget.getAttribute("data-breed-id");
+                setLocation(`/${breedId}`);
               }
             }}
             role="button"
