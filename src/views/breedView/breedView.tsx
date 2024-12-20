@@ -1,7 +1,7 @@
 import { List, Typography } from "antd";
-import { BREED_TYPES } from "@constants/breedTypes";
 import { capitalize } from "lodash";
 import { useLocation } from "wouter";
+import { availableBreeds } from "@api/constants/availableBreeds";
 import classes from "./breedView.module.scss";
 
 const { Title } = Typography;
@@ -9,9 +9,9 @@ const { Title } = Typography;
 export default function BreedView() {
   const [, setLocation] = useLocation();
 
-  const listItems = Object.keys(BREED_TYPES).map((key) => ({
+  const listItems = Object.keys(availableBreeds).map((key) => ({
     breedName: key,
-    breedId: BREED_TYPES[key as keyof typeof BREED_TYPES],
+    breedId: availableBreeds[key as keyof typeof availableBreeds],
   }));
 
   return (

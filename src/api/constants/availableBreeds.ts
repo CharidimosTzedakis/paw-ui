@@ -1,4 +1,4 @@
-export const BREED_TYPES = {
+export const availableBreeds = Object.freeze({
   ABYSSINIAN: "abys",
   AEGEAN: "aege",
   AMERICAN_BOBTAIL: "abob",
@@ -66,4 +66,4 @@ export const BREED_TYPES = {
   TURKISH_ANGORA: "tang",
   TURKISH_VAN: "tvan",
   YORK_CHOCOLATE: "ycho",
-};
+});
