@@ -4,6 +4,7 @@ import { useLocation } from "wouter";
 import theCatAPI from "@api/catApiClient";
 import type { Image as CatImage, Breed } from "@api/types";
 import CatDetailsModalContent from "./catDetailsModalContent";
+import FavouriteButton from "./favouriteButton";
 import classes from "./catDetailsModal.module.scss";
 
 const { Title } = Typography;
@@ -29,7 +30,12 @@ export default function CatDetailsModal({ id }: { id: string }) {
 
   return (
     <Modal
-      title={<Title level={2}>Cat details</Title>}
+      title={
+        <div className={classes.catDetailsModalTitleContainer}>
+          <Title level={2}>Cat Image details</Title>
+          <FavouriteButton catImageId={id} />
+        </div>
+      }
       className={classes.catDetailsModal}
       open
       footer={null}

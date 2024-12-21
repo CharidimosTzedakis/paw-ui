@@ -22,4 +22,13 @@
     width: 100% !important;
     height: 500px !important;
   }
+
+  .catDetailsModalTitleContainer {
+    display: flex;
+    gap: 1em;
+
+    button {
+      margin-top: 0.2em;
+    }
+  }
 }
