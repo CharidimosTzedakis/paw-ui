@@ -65,8 +65,9 @@ const CatView = () => {
           {({ height, width }) => {
             const columnCount = Math.floor(width / 300);
             const rowCount = Math.ceil(catImages.length / columnCount);
-            const gap = columnCount !== 1 ? 16 : 0;
-            const widthAdjust = columnCount !== 1 ? columnCount * gap : 20;
+            const leftGap = columnCount !== 1 ? 16 : 0;
+            const topGap = 16;
+            const widthAdjust = columnCount !== 1 ? columnCount * leftGap : 20;
             return (
               <Grid
                 columnCount={columnCount}
@@ -75,7 +76,7 @@ const CatView = () => {
                 rowCount={rowCount}
                 rowHeight={500}
                 width={columnCount * 300 + widthAdjust}
-                itemData={{ catImages, gap, columnCount }}
+                itemData={{ catImages, topGap, leftGap, columnCount }}
               >
                 {CatViewGridCell}
               </Grid>

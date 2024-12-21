@@ -11,18 +11,23 @@ export default function CatViewGridCell({
   columnIndex: number;
   rowIndex: number;
   style: CSSProperties;
-  data: { gap: number; columnCount: number; catImages: (CatImage | null)[] };
+  data: {
+    topGap: number;
+    leftGap: number;
+    columnCount: number;
+    catImages: (CatImage | null)[];
+  };
 }) {
-  const { catImages, gap, columnCount } = data;
+  const { catImages, topGap, leftGap, columnCount } = data;
   const index = rowIndex * columnCount + columnIndex;
   if (index >= catImages.length) return null;
   const catImage = catImages[index];
   const newStyle = {
     ...style,
-    left: (style.left as number) + gap * columnIndex,
-    top: (style.top as number) + gap * rowIndex,
-    width: (style.width as number) - gap,
-    height: (style.height as number) - gap,
+    left: (style.left as number) + leftGap * columnIndex,
+    top: (style.top as number) + topGap * rowIndex,
+    width: (style.width as number) - leftGap,
+    height: (style.height as number) - topGap,
   };
 
   return (
