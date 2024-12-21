@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { FixedSizeGrid as Grid } from "react-window";
 import AutoSizer from "react-virtualized-auto-sizer";
+import { debounce } from "lodash";
 import CatViewGridCell from "./catViewGridCell";
 import { Button } from "antd";
 import theCatAPI from "@api/catApiClient";
@@ -13,6 +14,7 @@ const CatView = () => {
   );
   const [fetched, setFetched] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [resizeTrigger, setResizeTrigger] = useState(0);
 
   const handleLoadMore = () => {
     setFetched(false);
@@ -45,14 +47,26 @@ const CatView = () => {
       });
   }, [catImages, fetched]);
 
+  useEffect(() => {
+    const handleResize = debounce(
+      () => setResizeTrigger((prev) => prev + 1),
+      100,
+    );
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className={classes.catViewContainer}>
       <div className={classes.autoSizerContainer}>
-        <AutoSizer>
+        <AutoSizer key={resizeTrigger}>
           {({ height, width }) => {
             const columnCount = Math.floor(width / 300);
             const rowCount = Math.ceil(catImages.length / columnCount);
-            const gap = 16;
+            const gap = columnCount !== 1 ? 16 : 0;
+            const widthAdjust = columnCount !== 1 ? columnCount * gap : 20;
             return (
               <Grid
                 columnCount={columnCount}
@@ -60,7 +74,7 @@ const CatView = () => {
                 height={height}
                 rowCount={rowCount}
                 rowHeight={500}
-                width={columnCount * 300 + columnCount * 16}
+                width={columnCount * 300 + widthAdjust}
                 itemData={{ catImages, gap, columnCount }}
               >
                 {CatViewGridCell}

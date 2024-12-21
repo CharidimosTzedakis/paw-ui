@@ -34,7 +34,7 @@ function App() {
     <ConfigProvider
       theme={theme === "light" ? { ...lightTheme } : { ...darkTheme }}
     >
-      <Layout style={{ minHeight: "100vh" }}>
+      <Layout style={{ minHeight: "100vh", overflow: "auto" }}>
         <AppHeader theme={theme} toggleTheme={toggleTheme} />
         <Content>
           <Switch>
