@@ -14,10 +14,9 @@ export default function FavoriteButton({ catImageId }: { catImageId: string }) {
     setLoading(true);
     theCatAPI.favourites
       .addFavourite(catImageId)
-      .then((resp) => {
+      .then(() => {
         setSuccess(true);
         setLoading(false);
-        console.log(resp);
       })
       .catch((error) => {
         console.log(error);

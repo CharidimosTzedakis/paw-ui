@@ -1,4 +1,4 @@
-import { Image } from "@thatapicompany/thecatapi/dist/types";
+import { Image, Favourite } from "@thatapicompany/thecatapi/dist/types";
 import { Breed as AvailableBreedsEnumType } from "@thatapicompany/thecatapi/dist";
 
 type Weight = {
@@ -46,4 +46,4 @@ type Breed = {
   hypoallergenic: number;
 };
 
-export type { Image, Breed, AvailableBreedsEnumType };
+export type { Image, Favourite, Breed, AvailableBreedsEnumType };
