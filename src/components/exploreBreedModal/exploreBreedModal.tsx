@@ -71,8 +71,8 @@ export default function ExploreBreedModal({
               />
             ))
           : catImages?.map((image: CatImage) => (
-              <Link to={`../../cats/${image.id}`}>
-                <Image key={image.url} src={image.url} preview={false} />
+              <Link key={image.url} to={`../../cats/${image.id}`}>
+                <Image src={image.url} preview={false} />
               </Link>
             ))}
       </div>
