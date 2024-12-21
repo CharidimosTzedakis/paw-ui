@@ -3,10 +3,12 @@ import { FixedSizeGrid as Grid } from "react-window";
 import AutoSizer from "react-virtualized-auto-sizer";
 import { debounce } from "lodash";
 import CatViewGridCell from "./catViewGridCell";
-import { Button } from "antd";
+import { Button, Typography } from "antd";
 import theCatAPI from "@api/catApiClient";
 import type { Image as CatImage } from "@api/types";
 import classes from "./catView.module.scss";
+
+const { Title } = Typography;
 
 const CatView = () => {
   const [catImages, setCatImages] = useState<(CatImage | null)[]>(
@@ -60,6 +62,15 @@ const CatView = () => {
 
   return (
     <div className={classes.catViewContainer}>
+      <div className={classes.titlesContainer}>
+        <Title level={2} className={classes.breedInfoTitle}>
+          Cats
+        </Title>
+        <Title level={3} className={classes.breedInfoTitle}>
+          Explore cat images!
+        </Title>
+      </div>
+
       <div className={classes.autoSizerContainer}>
         <AutoSizer key={resizeTrigger}>
           {({ height, width }) => {
@@ -67,7 +78,7 @@ const CatView = () => {
             const rowCount = Math.ceil(catImages.length / columnCount);
             const leftGap = columnCount !== 1 ? 16 : 0;
             const topGap = 16;
-            const widthAdjust = columnCount !== 1 ? columnCount * leftGap : 20;
+            const widthAdjust = columnCount !== 1 ? columnCount * leftGap : 0;
             return (
               <Grid
                 columnCount={columnCount}

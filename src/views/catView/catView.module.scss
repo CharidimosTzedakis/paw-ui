@@ -19,13 +19,28 @@
   height: 83vh;
   margin-left: auto;
   margin-right: auto;
+
+  .titlesContainer {
+    margin-top: 2em;
+    margin-left: 2em;
+    h2 {
+      margin: 0;
+    }
+
+    h3 {
+      margin: 0;
+    }
+  }
 }
 
 .autoSizerContainer {
   flex: 1 0 auto;
   margin: 2em 0;
   width: 100%;
-  padding-left: 2em;
+
+  @media (min-width: 600px) {
+    padding-left: 2em;
+  }
 
   & > div {
     display: flex;
