@@ -16,7 +16,7 @@
 .loadMoreButton {
   width: 100%;
   height: 40px;
-  max-width: 1200px;
+  max-width: 1600px;
   margin-left: 2em;
   margin-right: 2em;
 }
@@ -24,4 +24,30 @@
 .catImageSkeleton {
   width: 100% !important;
   height: 500px !important;
+}
+
+.catViewContainer {
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.autoSizerContainer {
+  flex: 1 0 auto;
+  margin: 2em 0;
+  width: 100%;
+
+  & > div {
+    display: flex;
+    width: unset !important;
+    height: unset !important;
+  }
+
+  & > div > div {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
