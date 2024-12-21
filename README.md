@@ -19,3 +19,18 @@ We give you a lot of freedom in technologies and ways of doing things. We only i
 
 Once you have built your app, share your code in the mean suits you best
 Good luck, potential colleague!
+
+## Getting started
+
+## Implementation notes
+
+## Next steps
+ - error messages/failed states
+   - now UI remains in loading state if something goes wrong and does not give feedback
+   - maybe an alert that something went wrong
+ - use react-query for data fetching
+   - breed modal would benefit from caching
+   - optimistic updates for add to favourites
+ - would use progress component to show in a 5 scale
+ - accessibility improvements with keyboard support
+ - pagination for easiest browsing of the favourite images
