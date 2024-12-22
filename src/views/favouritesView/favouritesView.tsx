@@ -36,7 +36,7 @@ export default function FavouritesView() {
   }, []);
 
   return (
-    <>
+    <div className={classes.favouriteCatViewContainer}>
       <Title level={2} className={classes.favouriteCatViewTitle}>
         Favourite images
       </Title>
@@ -55,11 +55,11 @@ export default function FavouritesView() {
               <Skeleton.Image
                 key={index}
                 active
-                style={{ width: 368, height: 562 }}
+                style={{ width: 366, height: 536 }}
               />
             ))
           : null}
       </div>
-    </>
+    </div>
   );
 }

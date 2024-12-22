@@ -1,14 +1,19 @@
+.favouriteCatViewContainer {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 .favouriteCatViewTitle {
   margin: 2em 0 0 1.1em;
 }
 
 .favouriteCatViewRow {
   padding: 2em;
-  max-width: 1200px;
   margin: 0 auto;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 370px);
   gap: 32px;
 
   img {

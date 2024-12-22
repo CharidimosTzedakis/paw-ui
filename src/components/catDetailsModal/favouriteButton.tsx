@@ -29,7 +29,11 @@ export default function FavoriteButton({ catImageId }: { catImageId: string }) {
       loading={loading}
       disabled={loading}
       onClick={handleClick}
-      style={success ? { backgroundColor: "#81c784" } : {}}
+      style={
+        success
+          ? { backgroundColor: "#81c784", boxShadow: "none" }
+          : { boxShadow: "none" }
+      }
     >
       {success ? "Done!" : "Add to Favorites"}
     </Button>
