@@ -8,8 +8,16 @@ import classes from "./favouritesView.module.scss";
 const { Title } = Typography;
 
 export default function FavouritesView() {
-  const [favouriteImages, setFavouriteImages] = useState<FavouriteImage[]>([]);
+  const [favouriteEntries, setFavouriteEntries] = useState<FavouriteImage[]>(
+    [],
+  );
   const [isLoading, setIsLoading] = useState(false);
+
+  const onFavouritesRemove = (favouriteId: number) => {
+    setFavouriteEntries(
+      favouriteEntries.filter((entry) => entry.id !== favouriteId),
+    );
+  };
 
   useEffect(() => {
     setIsLoading(true);
@@ -17,10 +25,13 @@ export default function FavouritesView() {
       .getFavourites()
       .then((favouriteImages) => {
         console.log(favouriteImages);
-        setFavouriteImages([...favouriteImages]);
+        setFavouriteEntries([...favouriteImages]);
       })
       .catch((error) => {
         console.log(error);
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
   }, []);
 
@@ -30,11 +41,13 @@ export default function FavouritesView() {
         Favourite images
       </Title>
       <div className={classes.favouriteCatViewRow}>
-        {favouriteImages.map((item) => (
+        {favouriteEntries.map((item) => (
           <FavouritesCatCard
             key={item.image.id}
-            id={item.image.id}
+            favouritesId={item.id}
+            imageId={item.image.id}
             imageUrl={item.image.url}
+            onFavouritesRemove={onFavouritesRemove}
           />
         ))}
         {isLoading
@@ -42,21 +55,11 @@ export default function FavouritesView() {
               <Skeleton.Image
                 key={index}
                 active
-                style={{ width: 284, height: 500 }}
+                style={{ width: 368, height: 562 }}
               />
             ))
           : null}
       </div>
     </>
   );
-}
-
-{
-  /*<div>*/
-}
-{
-  /*  <Title level={2}>Favourite images</Title>*/
-}
-{
-  /*</div>*/
 }

@@ -12,6 +12,15 @@
   }
 
   .actions {
-    padding: 1em 2em;
+    display: flex;
+    padding: 0;
+    margin-top: 0.1em;
+
+    button {
+      width: 50%;
+      flex: 1 0 auto;
+      box-shadow: none;
+      padding: 1.2em 2em;
+    }
   }
 }

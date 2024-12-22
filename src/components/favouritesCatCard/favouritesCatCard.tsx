@@ -1,42 +1,78 @@
+import { useState } from "react";
 import { useLocation } from "wouter";
-import { Card, Skeleton, Button, Image } from "antd";
+import { Card, Button, Image, Modal } from "antd";
 import { DeleteOutlined } from "@ant-design/icons";
+import theCatAPI from "@api/catApiClient";
 import classes from "./favouritesCatCard.module.scss";
 
-//  href={`../cats/${id}`
+const { confirm } = Modal;
 
 export default function FavouritesCatCard({
-  id,
+  favouritesId,
+  imageId,
   imageUrl,
+  onFavouritesRemove,
 }: {
-  id: string | undefined;
-  imageUrl: string | undefined;
+  favouritesId: number;
+  imageId: string;
+  imageUrl: string;
+  onFavouritesRemove: (favouritesId: number) => void;
 }) {
-  return id ? (
-    <Card
-      className={classes.favouritesCatCard}
-      bordered
-      style={{
-        width: "100%",
-        // height: 500,
-        // backgroundImage: `url(${imageUrl})`,
-        // backgroundSize: "cover",
-        // backgroundPosition: "center",
-        // backgroundRepeat: "no-repeat",
-      }}
-    >
+  const [, setLocation] = useLocation();
+  const [removeInFlight, setRemoveInFlight] = useState(false);
+
+  const handleOnViewDetails = () => {
+    setLocation(`../cats/${imageId}`);
+  };
+
+  const handleOnRemove = () => {
+    setRemoveInFlight(true);
+    theCatAPI.favourites
+      .deleteFavourite(favouritesId)
+      .then(() => {
+        onFavouritesRemove(favouritesId);
+      })
+      .catch((error) => {
+        console.log(error);
+        setRemoveInFlight(false);
+      });
+  };
+
+  const showConfirm = () => {
+    confirm({
+      title: "Are you sure you want to remove this image from your favourites?",
+      // content: 'This action is irreversible. Please confirm your choice.',
+      okText: "Yes",
+      cancelText: "No",
+      onOk() {
+        handleOnRemove();
+      },
+      onCancel() {},
+    });
+  };
+
+  return (
+    <Card className={classes.favouritesCatCard} bordered>
       <Image src={imageUrl} className={classes.favouriteImage} />
       <div className={classes.actions}>
-        <Button key="view" type="primary">
+        <Button
+          key="view_image_details"
+          type="primary"
+          onClick={handleOnViewDetails}
+        >
           View details
         </Button>
-        <Button key="delete" type="default">
+        <Button
+          key="remove_favourite_image"
+          type="default"
+          onClick={showConfirm}
+          loading={removeInFlight}
+          disabled={removeInFlight}
+        >
           <DeleteOutlined />
           Remove
         </Button>
       </div>
     </Card>
-  ) : (
-    <Skeleton.Image active style={{ width: "100%", height: 500 }} />
   );
 }
