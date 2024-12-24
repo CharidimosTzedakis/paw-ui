@@ -1,0 +1,549 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<CatDetailsModal /> > renders correctly in loading state 1`] = `
+<body>
+  <div />
+  <div>
+    <div
+      class="ant-modal-root css-dev-only-do-not-override-1kf000u"
+    >
+      <div
+        class="ant-modal-mask"
+      />
+      <div
+        class="ant-modal-wrap"
+        tabindex="-1"
+      >
+        <div
+          aria-labelledby="test-id"
+          aria-modal="true"
+          class="ant-modal css-dev-only-do-not-override-1kf000u _catDetailsModal_95c7ed ant-zoom-appear ant-zoom-appear-prepare ant-zoom"
+          role="dialog"
+          style="top: 20px; width: 800px;"
+        >
+          <div
+            style="outline: none;"
+            tabindex="0"
+          >
+            <div
+              class="ant-modal-content"
+            >
+              <button
+                aria-label="Close"
+                class="ant-modal-close"
+                type="button"
+              >
+                <span
+                  class="ant-modal-close-x"
+                >
+                  <span
+                    aria-label="close"
+                    class="anticon anticon-close ant-modal-close-icon"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="close"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M799.86 166.31c.02 0 .04.02.08.06l57.69 57.7c.04.03.05.05.06.08a.12.12 0 010 .06c0 .03-.02.05-.06.09L569.93 512l287.7 287.7c.04.04.05.06.06.09a.12.12 0 010 .07c0 .02-.02.04-.06.08l-57.7 57.69c-.03.04-.05.05-.07.06a.12.12 0 01-.07 0c-.03 0-.05-.02-.09-.06L512 569.93l-287.7 287.7c-.04.04-.06.05-.09.06a.12.12 0 01-.07 0c-.02 0-.04-.02-.08-.06l-57.69-57.7c-.04-.03-.05-.05-.06-.07a.12.12 0 010-.07c0-.03.02-.05.06-.09L454.07 512l-287.7-287.7c-.04-.04-.05-.06-.06-.09a.12.12 0 010-.07c0-.02.02-.04.06-.08l57.7-57.69c.03-.04.05-.05.07-.06a.12.12 0 01.07 0c.03 0 .05.02.09.06L512 454.07l287.7-287.7c.04-.04.06-.05.09-.06a.12.12 0 01.07 0z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </button>
+              <div
+                class="ant-modal-header"
+              >
+                <div
+                  class="ant-modal-title"
+                  id="test-id"
+                >
+                  <div
+                    class="_catDetailsModalTitleContainer_95c7ed"
+                  >
+                    <h2
+                      class="ant-typography css-dev-only-do-not-override-1kf000u"
+                    >
+                      Cat Image details
+                    </h2>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+                      style="box-shadow: none;"
+                      type="button"
+                    >
+                      <span>
+                        Add to Favorites
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-modal-body"
+              >
+                <div
+                  class="ant-skeleton ant-skeleton-element ant-skeleton-active _imageSkeleton_95c7ed css-dev-only-do-not-override-1kf000u"
+                >
+                  <div
+                    class="ant-skeleton-image _imageSkeleton_95c7ed"
+                  >
+                    <svg
+                      class="ant-skeleton-image-svg"
+                      viewBox="0 0 1098 1024"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>
+                        Image placeholder
+                      </title>
+                      <path
+                        class="ant-skeleton-image-path"
+                        d="M365.714286 329.142857q0 45.714286-32.036571 77.677714t-77.677714 32.036571-77.677714-32.036571-32.036571-77.677714 32.036571-77.677714 77.677714-32.036571 77.677714 32.036571 32.036571 77.677714zM950.857143 548.571429l0 256-804.571429 0 0-109.714286 182.857143-182.857143 91.428571 91.428571 292.571429-292.571429zM1005.714286 146.285714l-914.285714 0q-7.460571 0-12.873143 5.412571t-5.412571 12.873143l0 694.857143q0 7.460571 5.412571 12.873143t12.873143 5.412571l914.285714 0q7.460571 0 12.873143-5.412571t5.412571-12.873143l0-694.857143q0-7.460571-5.412571-12.873143t-12.873143-5.412571zM1097.142857 164.571429l0 694.857143q0 37.741714-26.843429 64.585143t-64.585143 26.843429l-914.285714 0q-37.741714 0-64.585143-26.843429t-26.843429-64.585143l0-694.857143q0-37.741714 26.843429-64.585143t64.585143-26.843429l914.285714 0q37.741714 0 64.585143 26.843429t26.843429 64.585143z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <h3
+                  class="ant-typography _breedInfoTitle_95c7ed css-dev-only-do-not-override-1kf000u"
+                >
+                  Breed information
+                </h3>
+                <div
+                  class="ant-skeleton css-dev-only-do-not-override-1kf000u"
+                >
+                  <div
+                    class="ant-skeleton-content"
+                  >
+                    <h3
+                      class="ant-skeleton-title"
+                      style="width: 38%;"
+                    />
+                    <ul
+                      class="ant-skeleton-paragraph"
+                    >
+                      <li />
+                      <li />
+                      <li />
+                      <li
+                        style="width: 61%;"
+                      />
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            style="width: 0px; height: 0px; overflow: hidden; outline: none;"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`<CatDetailsModal /> > should render correctly for cat image with breed info 1`] = `
+<body>
+  <div />
+  <div>
+    <div
+      class="ant-modal-root css-dev-only-do-not-override-1kf000u"
+    >
+      <div
+        class="ant-modal-mask"
+      />
+      <div
+        class="ant-modal-wrap"
+        tabindex="-1"
+      >
+        <div
+          aria-labelledby="test-id"
+          aria-modal="true"
+          class="ant-modal css-dev-only-do-not-override-1kf000u _catDetailsModal_95c7ed ant-zoom-appear ant-zoom-appear-prepare ant-zoom"
+          role="dialog"
+          style="top: 20px; width: 800px;"
+        >
+          <div
+            style="outline: none;"
+            tabindex="0"
+          >
+            <div
+              class="ant-modal-content"
+            >
+              <button
+                aria-label="Close"
+                class="ant-modal-close"
+                type="button"
+              >
+                <span
+                  class="ant-modal-close-x"
+                >
+                  <span
+                    aria-label="close"
+                    class="anticon anticon-close ant-modal-close-icon"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="close"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M799.86 166.31c.02 0 .04.02.08.06l57.69 57.7c.04.03.05.05.06.08a.12.12 0 010 .06c0 .03-.02.05-.06.09L569.93 512l287.7 287.7c.04.04.05.06.06.09a.12.12 0 010 .07c0 .02-.02.04-.06.08l-57.7 57.69c-.03.04-.05.05-.07.06a.12.12 0 01-.07 0c-.03 0-.05-.02-.09-.06L512 569.93l-287.7 287.7c-.04.04-.06.05-.09.06a.12.12 0 01-.07 0c-.02 0-.04-.02-.08-.06l-57.69-57.7c-.04-.03-.05-.05-.06-.07a.12.12 0 010-.07c0-.03.02-.05.06-.09L454.07 512l-287.7-287.7c-.04-.04-.05-.06-.06-.09a.12.12 0 010-.07c0-.02.02-.04.06-.08l57.7-57.69c.03-.04.05-.05.07-.06a.12.12 0 01.07 0c.03 0 .05.02.09.06L512 454.07l287.7-287.7c.04-.04.06-.05.09-.06a.12.12 0 01.07 0z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </button>
+              <div
+                class="ant-modal-header"
+              >
+                <div
+                  class="ant-modal-title"
+                  id="test-id"
+                >
+                  <div
+                    class="_catDetailsModalTitleContainer_95c7ed"
+                  >
+                    <h2
+                      class="ant-typography css-dev-only-do-not-override-1kf000u"
+                    >
+                      Cat Image details
+                    </h2>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+                      style="box-shadow: none;"
+                      type="button"
+                    >
+                      <span>
+                        Add to Favorites
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-modal-body"
+              >
+                <div
+                  class="ant-image css-dev-only-do-not-override-1kf000u"
+                >
+                  <img
+                    alt="image cat of breed Oriental"
+                    class="ant-image-img css-dev-only-do-not-override-1kf000u"
+                    src="https://cdn2.thecatapi.com/images/0eVXT8_lb.jpg"
+                  />
+                  <div
+                    class="ant-image-mask"
+                  >
+                    <div
+                      class="ant-image-mask-info"
+                    >
+                      <span
+                        aria-label="eye"
+                        class="anticon anticon-eye"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="eye"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+                          />
+                        </svg>
+                      </span>
+                      Preview
+                    </div>
+                  </div>
+                </div>
+                <h3
+                  class="ant-typography _breedInfoTitle_95c7ed css-dev-only-do-not-override-1kf000u"
+                >
+                  Breed information
+                </h3>
+                <div>
+                  <ul>
+                    <li>
+                      <strong>
+                        Name
+                        : 
+                      </strong>
+                      <a
+                        href="../../breeds/orie"
+                      >
+                        Oriental
+                      </a>
+                    </li>
+                    <li>
+                      <strong>
+                        Temperament
+                        : 
+                      </strong>
+                      Energetic, Affectionate, Intelligent, Social, Playful, Curious
+                    </li>
+                    <li>
+                      <strong>
+                        Origin
+                        : 
+                      </strong>
+                      United States
+                    </li>
+                    <li>
+                      <strong>
+                        Country Code
+                        : 
+                      </strong>
+                      US
+                    </li>
+                    <li>
+                      <strong>
+                        Description
+                        : 
+                      </strong>
+                      Orientals are passionate about the people in their lives. They become extremely attached to their humans, so be prepared for a lifetime commitment. When you are not available to entertain her, an Oriental will divert herself by jumping on top of the refrigerator, opening drawers, seeking out new hideaways.
+                    </li>
+                    <li>
+                      <strong>
+                        Life Span
+                        : 
+                      </strong>
+                      12 - 14
+                    </li>
+                    <li>
+                      <strong>
+                        Alt Names
+                        : 
+                      </strong>
+                      Foreign Type
+                    </li>
+                    <li>
+                      <strong>
+                        Cfa Url
+                        : 
+                      </strong>
+                      <a
+                        href="http://cfa.org/Breeds/BreedsKthruR/Oriental.aspx"
+                        target="_blank"
+                      >
+                        http://cfa.org/Breeds/BreedsKthruR/Oriental.aspx
+                      </a>
+                    </li>
+                    <li>
+                      <strong>
+                        Vetstreet Url
+                        : 
+                      </strong>
+                      <a
+                        href="http://www.vetstreet.com/cats/oriental"
+                        target="_blank"
+                      >
+                        http://www.vetstreet.com/cats/oriental
+                      </a>
+                    </li>
+                    <li>
+                      <strong>
+                        Vcahospitals Url
+                        : 
+                      </strong>
+                      <a
+                        href="https://vcahospitals.com/know-your-pet/cat-breeds/oriental"
+                        target="_blank"
+                      >
+                        https://vcahospitals.com/know-your-pet/cat-breeds/oriental
+                      </a>
+                    </li>
+                    <li>
+                      <strong>
+                        Wikipedia Url
+                        : 
+                      </strong>
+                      <a
+                        href="https://en.wikipedia.org/wiki/Oriental_Shorthair"
+                        target="_blank"
+                      >
+                        https://en.wikipedia.org/wiki/Oriental_Shorthair
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            style="width: 0px; height: 0px; overflow: hidden; outline: none;"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`<CatDetailsModal /> > should render correctly for cat image with no breed info 1`] = `
+<body>
+  <div />
+  <div>
+    <div
+      class="ant-modal-root css-dev-only-do-not-override-1kf000u"
+    >
+      <div
+        class="ant-modal-mask"
+      />
+      <div
+        class="ant-modal-wrap"
+        tabindex="-1"
+      >
+        <div
+          aria-labelledby="test-id"
+          aria-modal="true"
+          class="ant-modal css-dev-only-do-not-override-1kf000u _catDetailsModal_95c7ed ant-zoom-appear ant-zoom-appear-prepare ant-zoom"
+          role="dialog"
+          style="top: 20px; width: 800px;"
+        >
+          <div
+            style="outline: none;"
+            tabindex="0"
+          >
+            <div
+              class="ant-modal-content"
+            >
+              <button
+                aria-label="Close"
+                class="ant-modal-close"
+                type="button"
+              >
+                <span
+                  class="ant-modal-close-x"
+                >
+                  <span
+                    aria-label="close"
+                    class="anticon anticon-close ant-modal-close-icon"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="close"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M799.86 166.31c.02 0 .04.02.08.06l57.69 57.7c.04.03.05.05.06.08a.12.12 0 010 .06c0 .03-.02.05-.06.09L569.93 512l287.7 287.7c.04.04.05.06.06.09a.12.12 0 010 .07c0 .02-.02.04-.06.08l-57.7 57.69c-.03.04-.05.05-.07.06a.12.12 0 01-.07 0c-.03 0-.05-.02-.09-.06L512 569.93l-287.7 287.7c-.04.04-.06.05-.09.06a.12.12 0 01-.07 0c-.02 0-.04-.02-.08-.06l-57.69-57.7c-.04-.03-.05-.05-.06-.07a.12.12 0 010-.07c0-.03.02-.05.06-.09L454.07 512l-287.7-287.7c-.04-.04-.05-.06-.06-.09a.12.12 0 010-.07c0-.02.02-.04.06-.08l57.7-57.69c.03-.04.05-.05.07-.06a.12.12 0 01.07 0c.03 0 .05.02.09.06L512 454.07l287.7-287.7c.04-.04.06-.05.09-.06a.12.12 0 01.07 0z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </button>
+              <div
+                class="ant-modal-header"
+              >
+                <div
+                  class="ant-modal-title"
+                  id="test-id"
+                >
+                  <div
+                    class="_catDetailsModalTitleContainer_95c7ed"
+                  >
+                    <h2
+                      class="ant-typography css-dev-only-do-not-override-1kf000u"
+                    >
+                      Cat Image details
+                    </h2>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+                      style="box-shadow: none;"
+                      type="button"
+                    >
+                      <span>
+                        Add to Favorites
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-modal-body"
+              >
+                <div
+                  class="ant-image css-dev-only-do-not-override-1kf000u"
+                >
+                  <img
+                    alt="cat image"
+                    class="ant-image-img css-dev-only-do-not-override-1kf000u"
+                    src="https://cdn2.thecatapi.com/images/6gc.jpg"
+                  />
+                  <div
+                    class="ant-image-mask"
+                  >
+                    <div
+                      class="ant-image-mask-info"
+                    >
+                      <span
+                        aria-label="eye"
+                        class="anticon anticon-eye"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="eye"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+                          />
+                        </svg>
+                      </span>
+                      Preview
+                    </div>
+                  </div>
+                </div>
+                <h3
+                  class="ant-typography _breedInfoTitle_95c7ed css-dev-only-do-not-override-1kf000u"
+                >
+                  Breed information
+                </h3>
+                <span
+                  class="ant-typography css-dev-only-do-not-override-1kf000u"
+                >
+                  No breed information available for this cat.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            style="width: 0px; height: 0px; overflow: hidden; outline: none;"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

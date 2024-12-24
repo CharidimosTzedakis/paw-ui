@@ -17,7 +17,7 @@ export default function CatDetailsModalContent({
       <Image
         src={url}
         alt={
-          breeds?.[0].name
+          breeds?.[0]?.name
             ? `image cat of breed ${breeds[0].name}`
             : "cat image"
         }
