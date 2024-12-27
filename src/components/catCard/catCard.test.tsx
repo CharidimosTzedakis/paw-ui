@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
-import CatCard from "./catCard";
 import { render } from "@testing-library/react";
+import CatCard from "./catCard";
 
 describe("<CatCard/>", () => {
   it("should render correctly with provided image id and url", () => {
