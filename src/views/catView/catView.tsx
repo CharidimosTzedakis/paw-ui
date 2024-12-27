@@ -102,6 +102,7 @@ const CatView = () => {
           className={classes.loadMoreButton}
           onClick={handleLoadMore}
           disabled={isLoading}
+          tabIndex={0}
         >
           Load more
         </Button>

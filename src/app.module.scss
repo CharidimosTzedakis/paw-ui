@@ -14,3 +14,25 @@ li {
   margin: 0;
   padding: 0;
 }
+
+[tabindex="0"] {
+  &:focus-visible {
+    outline: 4px solid #3131d3 !important;
+  }
+}
+
+[role="dialog"] > [tabindex="0"] {
+  outline: none;
+}
+
+a[tabindex="0"] {
+  &:focus-visible > * {
+    outline: 4px solid #3131d3;
+  }
+}
+
+button[aria-label="Close"] {
+  &:focus-visible {
+    outline: 4px solid #3131d3 !important;
+  }
+}

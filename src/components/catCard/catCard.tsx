@@ -10,7 +10,7 @@ export default function CatCard({
   imageUrl: string | undefined;
 }) {
   return id ? (
-    <Link href={`/${id}`}>
+    <Link href={`/${id}`} tabIndex={0}>
       <Card
         bordered
         style={{

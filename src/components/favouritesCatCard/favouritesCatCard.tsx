@@ -58,6 +58,7 @@ export default function FavouritesCatCard({
           key="view_image_details"
           type="primary"
           onClick={handleOnViewDetails}
+          tabIndex={0}
         >
           View details
         </Button>
@@ -67,6 +68,7 @@ export default function FavouritesCatCard({
           onClick={showConfirm}
           loading={removeInFlight}
           disabled={removeInFlight}
+          tabIndex={0}
         >
           <DeleteOutlined />
           Remove

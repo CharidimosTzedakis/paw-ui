@@ -5,11 +5,31 @@ import { BulbOutlined, MoonOutlined } from "@ant-design/icons";
 const { Header } = Layout;
 
 const items = [
-  { key: "1", label: <Link href="/cats">Cats</Link>, path: "/cats" },
-  { key: "2", label: <Link href="/breeds">Breeds</Link>, path: "/breeds" },
+  {
+    key: "1",
+    label: (
+      <Link href="/cats" tabIndex={0}>
+        Cats
+      </Link>
+    ),
+    path: "/cats",
+  },
+  {
+    key: "2",
+    label: (
+      <Link href="/breeds" tabIndex={0}>
+        Breeds
+      </Link>
+    ),
+    path: "/breeds",
+  },
   {
     key: "3",
-    label: <Link href="/favourites">Favourites</Link>,
+    label: (
+      <Link href="/favourites" tabIndex={0}>
+        Favourites
+      </Link>
+    ),
     path: "/favourites",
   },
 ];
@@ -50,6 +70,7 @@ export default function AppHeader({
         onChange={toggleTheme}
         checkedChildren={<MoonOutlined />}
         unCheckedChildren={<BulbOutlined />}
+        tabIndex={0}
       />
     </Header>
   );
