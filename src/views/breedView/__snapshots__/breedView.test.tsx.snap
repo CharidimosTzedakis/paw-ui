@@ -1,0 +1,576 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<BreedView/> > should render correctly the list of the available cat breeds 1`] = `
+<div>
+  <div
+    class="_breedViewContainer_206f61"
+  >
+    <div
+      class="ant-list ant-list-lg ant-list-split css-dev-only-do-not-override-1kf000u"
+    >
+      <div
+        class="ant-list-header"
+      >
+        <h2
+          class="ant-typography css-dev-only-do-not-override-1kf000u"
+        >
+          Cat Breeds
+        </h2>
+        <span
+          class="ant-typography css-dev-only-do-not-override-1kf000u"
+        >
+          Select one of the following available breeds to explore
+        </span>
+      </div>
+      <div
+        class="ant-spin-nested-loading css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-spin-container"
+        >
+          <ul
+            class="ant-list-items"
+          >
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="abys"
+              role="button"
+              tabindex="0"
+            >
+              Abyssinian
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="aege"
+              role="button"
+              tabindex="0"
+            >
+              Aegean
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="abob"
+              role="button"
+              tabindex="0"
+            >
+              American bobtail
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="acur"
+              role="button"
+              tabindex="0"
+            >
+              American curl
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="asho"
+              role="button"
+              tabindex="0"
+            >
+              American shorthair
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="awir"
+              role="button"
+              tabindex="0"
+            >
+              American wirehair
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="amau"
+              role="button"
+              tabindex="0"
+            >
+              Arabian mau
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="amis"
+              role="button"
+              tabindex="0"
+            >
+              Australian mist
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="bali"
+              role="button"
+              tabindex="0"
+            >
+              Balinese
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="bamb"
+              role="button"
+              tabindex="0"
+            >
+              Bambino
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="beng"
+              role="button"
+              tabindex="0"
+            >
+              Bengal
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="birm"
+              role="button"
+              tabindex="0"
+            >
+              Birman
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="bomb"
+              role="button"
+              tabindex="0"
+            >
+              Bombay
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="bslo"
+              role="button"
+              tabindex="0"
+            >
+              British longhair
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="bsho"
+              role="button"
+              tabindex="0"
+            >
+              British shorthair
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="bure"
+              role="button"
+              tabindex="0"
+            >
+              Burmese
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="buri"
+              role="button"
+              tabindex="0"
+            >
+              Burmilla
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="cspa"
+              role="button"
+              tabindex="0"
+            >
+              California spangled
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="ctif"
+              role="button"
+              tabindex="0"
+            >
+              Chantilly tiffany
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="char"
+              role="button"
+              tabindex="0"
+            >
+              Chartreux
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="chau"
+              role="button"
+              tabindex="0"
+            >
+              Chausie
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="chee"
+              role="button"
+              tabindex="0"
+            >
+              Cheetoh
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="csho"
+              role="button"
+              tabindex="0"
+            >
+              Colorpoint shorthair
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="crex"
+              role="button"
+              tabindex="0"
+            >
+              Cornish rex
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="cymr"
+              role="button"
+              tabindex="0"
+            >
+              Cymric
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="cypr"
+              role="button"
+              tabindex="0"
+            >
+              Cyprus
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="drex"
+              role="button"
+              tabindex="0"
+            >
+              Devon rex
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="dons"
+              role="button"
+              tabindex="0"
+            >
+              Donskoy
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="lihu"
+              role="button"
+              tabindex="0"
+            >
+              Dragon li
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="emau"
+              role="button"
+              tabindex="0"
+            >
+              Egyptian mau
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="ebur"
+              role="button"
+              tabindex="0"
+            >
+              European burmese
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="esho"
+              role="button"
+              tabindex="0"
+            >
+              Exotic shorthair
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="hbro"
+              role="button"
+              tabindex="0"
+            >
+              Havana brown
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="hima"
+              role="button"
+              tabindex="0"
+            >
+              Himalayan
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="jbob"
+              role="button"
+              tabindex="0"
+            >
+              Japanese bobtail
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="java"
+              role="button"
+              tabindex="0"
+            >
+              Javanese
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="khao"
+              role="button"
+              tabindex="0"
+            >
+              Khao manee
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="kora"
+              role="button"
+              tabindex="0"
+            >
+              Korat
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="kuri"
+              role="button"
+              tabindex="0"
+            >
+              Kurilian
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="lape"
+              role="button"
+              tabindex="0"
+            >
+              Laperm
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="mcoo"
+              role="button"
+              tabindex="0"
+            >
+              Maine coon
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="mala"
+              role="button"
+              tabindex="0"
+            >
+              Malayan
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="manx"
+              role="button"
+              tabindex="0"
+            >
+              Manx
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="munc"
+              role="button"
+              tabindex="0"
+            >
+              Munchkin
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="nebe"
+              role="button"
+              tabindex="0"
+            >
+              Nebelung
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="norw"
+              role="button"
+              tabindex="0"
+            >
+              Norwegian forest cat
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="ocic"
+              role="button"
+              tabindex="0"
+            >
+              Ocicat
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="orie"
+              role="button"
+              tabindex="0"
+            >
+              Oriental
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="pers"
+              role="button"
+              tabindex="0"
+            >
+              Persian
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="pixi"
+              role="button"
+              tabindex="0"
+            >
+              Pixie bob
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="raga"
+              role="button"
+              tabindex="0"
+            >
+              Ragamuffin
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="ragd"
+              role="button"
+              tabindex="0"
+            >
+              Ragdoll
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="rblu"
+              role="button"
+              tabindex="0"
+            >
+              Russian blue
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="sava"
+              role="button"
+              tabindex="0"
+            >
+              Savannah
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="sfol"
+              role="button"
+              tabindex="0"
+            >
+              Scottish fold
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="srex"
+              role="button"
+              tabindex="0"
+            >
+              Selkirk rex
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="siam"
+              role="button"
+              tabindex="0"
+            >
+              Siamese
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="sibe"
+              role="button"
+              tabindex="0"
+            >
+              Siberian
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="sing"
+              role="button"
+              tabindex="0"
+            >
+              Singapura
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="snow"
+              role="button"
+              tabindex="0"
+            >
+              Snowshoe
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="soma"
+              role="button"
+              tabindex="0"
+            >
+              Somali
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="sphy"
+              role="button"
+              tabindex="0"
+            >
+              Sphynx
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="tonk"
+              role="button"
+              tabindex="0"
+            >
+              Tonkinese
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="toyg"
+              role="button"
+              tabindex="0"
+            >
+              Toyger
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="tang"
+              role="button"
+              tabindex="0"
+            >
+              Turkish angora
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="tvan"
+              role="button"
+              tabindex="0"
+            >
+              Turkish van
+            </li>
+            <li
+              class="ant-list-item _listItem_206f61"
+              data-breed-id="ycho"
+              role="button"
+              tabindex="0"
+            >
+              York chocolate
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
