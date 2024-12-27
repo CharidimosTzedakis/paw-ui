@@ -26,6 +26,7 @@ exports[`<AppHeader/> > should render correctly 1`] = `
         >
           <a
             href="/cats"
+            tabindex="0"
           >
             Cats
           </a>
@@ -43,6 +44,7 @@ exports[`<AppHeader/> > should render correctly 1`] = `
         >
           <a
             href="/breeds"
+            tabindex="0"
           >
             Breeds
           </a>
@@ -60,6 +62,7 @@ exports[`<AppHeader/> > should render correctly 1`] = `
         >
           <a
             href="/favourites"
+            tabindex="0"
           >
             Favourites
           </a>
@@ -113,6 +116,7 @@ exports[`<AppHeader/> > should render correctly 1`] = `
       aria-checked="false"
       class="ant-switch css-dev-only-do-not-override-1kf000u"
       role="switch"
+      tabindex="0"
       type="button"
     >
       <div

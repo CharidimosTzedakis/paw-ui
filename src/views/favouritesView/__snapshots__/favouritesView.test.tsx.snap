@@ -60,6 +60,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
           >
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              tabindex="0"
               type="button"
             >
               <span>
@@ -68,6 +69,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
             </button>
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              tabindex="0"
               type="button"
             >
               <span
@@ -143,6 +145,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
           >
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              tabindex="0"
               type="button"
             >
               <span>
@@ -151,6 +154,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
             </button>
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              tabindex="0"
               type="button"
             >
               <span
@@ -226,6 +230,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
           >
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              tabindex="0"
               type="button"
             >
               <span>
@@ -234,6 +239,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
             </button>
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              tabindex="0"
               type="button"
             >
               <span
@@ -309,6 +315,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
           >
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              tabindex="0"
               type="button"
             >
               <span>
@@ -317,6 +324,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
             </button>
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              tabindex="0"
               type="button"
             >
               <span
@@ -392,6 +400,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
           >
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              tabindex="0"
               type="button"
             >
               <span>
@@ -400,6 +409,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
             </button>
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              tabindex="0"
               type="button"
             >
               <span
@@ -475,6 +485,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
           >
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              tabindex="0"
               type="button"
             >
               <span>
@@ -483,6 +494,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
             </button>
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              tabindex="0"
               type="button"
             >
               <span
@@ -558,6 +570,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
           >
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              tabindex="0"
               type="button"
             >
               <span>
@@ -566,6 +579,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
             </button>
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              tabindex="0"
               type="button"
             >
               <span
@@ -641,6 +655,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
           >
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              tabindex="0"
               type="button"
             >
               <span>
@@ -649,6 +664,7 @@ exports[`<FavouritesView/> > should render correctly the favourite images 1`] = 
             </button>
             <button
               class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              tabindex="0"
               type="button"
             >
               <span

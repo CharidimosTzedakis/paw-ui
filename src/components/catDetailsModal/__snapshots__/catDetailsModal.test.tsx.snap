@@ -76,6 +76,7 @@ exports[`<CatDetailsModal /> > renders correctly in loading state 1`] = `
                     <button
                       class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
                       style="box-shadow: none;"
+                      tabindex="0"
                       type="button"
                     >
                       <span>
@@ -226,6 +227,7 @@ exports[`<CatDetailsModal /> > should render correctly for cat image with breed 
                     <button
                       class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
                       style="box-shadow: none;"
+                      tabindex="0"
                       type="button"
                     >
                       <span>
@@ -240,6 +242,7 @@ exports[`<CatDetailsModal /> > should render correctly for cat image with breed 
               >
                 <div
                   class="ant-image css-dev-only-do-not-override-1kf000u"
+                  tabindex="0"
                 >
                   <img
                     alt="image cat of breed Oriental"
@@ -475,6 +478,7 @@ exports[`<CatDetailsModal /> > should render correctly for cat image with no bre
                     <button
                       class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
                       style="box-shadow: none;"
+                      tabindex="0"
                       type="button"
                     >
                       <span>
@@ -489,6 +493,7 @@ exports[`<CatDetailsModal /> > should render correctly for cat image with no bre
               >
                 <div
                   class="ant-image css-dev-only-do-not-override-1kf000u"
+                  tabindex="0"
                 >
                   <img
                     alt="cat image"

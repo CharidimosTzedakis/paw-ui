@@ -86,6 +86,7 @@ exports[`<ExploreBreedModal/> > should render correctly a list of images for a s
                 >
                   <a
                     href="../../cats/OhTkBTPnD"
+                    tabindex="0"
                   >
                     <div
                       class="ant-image css-dev-only-do-not-override-1kf000u"
@@ -98,6 +99,7 @@ exports[`<ExploreBreedModal/> > should render correctly a list of images for a s
                   </a>
                   <a
                     href="../../cats/Dm0H1zSK1"
+                    tabindex="0"
                   >
                     <div
                       class="ant-image css-dev-only-do-not-override-1kf000u"
@@ -110,6 +112,7 @@ exports[`<ExploreBreedModal/> > should render correctly a list of images for a s
                   </a>
                   <a
                     href="../../cats/xRMeDCybn"
+                    tabindex="0"
                   >
                     <div
                       class="ant-image css-dev-only-do-not-override-1kf000u"
@@ -122,6 +125,7 @@ exports[`<ExploreBreedModal/> > should render correctly a list of images for a s
                   </a>
                   <a
                     href="../../cats/3rK7HGo7r"
+                    tabindex="0"
                   >
                     <div
                       class="ant-image css-dev-only-do-not-override-1kf000u"
@@ -134,6 +138,7 @@ exports[`<ExploreBreedModal/> > should render correctly a list of images for a s
                   </a>
                   <a
                     href="../../cats/2LEN_GHmx"
+                    tabindex="0"
                   >
                     <div
                       class="ant-image css-dev-only-do-not-override-1kf000u"
@@ -146,6 +151,7 @@ exports[`<ExploreBreedModal/> > should render correctly a list of images for a s
                   </a>
                   <a
                     href="../../cats/C0BNiXO0T"
+                    tabindex="0"
                   >
                     <div
                       class="ant-image css-dev-only-do-not-override-1kf000u"
@@ -158,6 +164,7 @@ exports[`<ExploreBreedModal/> > should render correctly a list of images for a s
                   </a>
                   <a
                     href="../../cats/znCxQCEp4"
+                    tabindex="0"
                   >
                     <div
                       class="ant-image css-dev-only-do-not-override-1kf000u"
@@ -170,6 +177,7 @@ exports[`<ExploreBreedModal/> > should render correctly a list of images for a s
                   </a>
                   <a
                     href="../../cats/9tZCXEYzy"
+                    tabindex="0"
                   >
                     <div
                       class="ant-image css-dev-only-do-not-override-1kf000u"
@@ -182,6 +190,7 @@ exports[`<ExploreBreedModal/> > should render correctly a list of images for a s
                   </a>
                   <a
                     href="../../cats/TKKtEJZVl"
+                    tabindex="0"
                   >
                     <div
                       class="ant-image css-dev-only-do-not-override-1kf000u"
@@ -194,6 +203,7 @@ exports[`<ExploreBreedModal/> > should render correctly a list of images for a s
                   </a>
                   <a
                     href="../../cats/yZE2JpeXz"
+                    tabindex="0"
                   >
                     <div
                       class="ant-image css-dev-only-do-not-override-1kf000u"
