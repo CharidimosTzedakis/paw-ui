@@ -41,7 +41,6 @@ export default function FavouritesCatCard({
   const showConfirm = () => {
     confirm({
       title: "Are you sure you want to remove this image from your favourites?",
-      // content: 'This action is irreversible. Please confirm your choice.',
       okText: "Yes",
       cancelText: "No",
       onOk() {

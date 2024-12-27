@@ -1,7 +1,7 @@
 import { describe, it, Mock, vi, expect } from "vitest";
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import theCatAPI from "@api/catApiClient.ts";
+import theCatAPI from "@api/catApiClient";
 import { useLocation } from "wouter";
 import ExploreBreedModal from "./exploreBreedModal";
 import { catImagesBirmanBreed } from "@test/fixtures";
