@@ -1,14 +1,13 @@
-export function snakeToTitleCase(snake: string): string {
-  return snake
-    .split("_")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-    .join(" ");
+import { startCase, toLower } from "lodash";
+
+export function snakeToTitleCase(str: string): string {
+  return startCase(toLower(str.replace(/_+/g, " "))).trim();
 }
 
 export function isValidURL(url: string): boolean {
   try {
-    new URL(url);
-    return true;
+    const parsedURL = new URL(url);
+    return parsedURL.protocol === "http:" || parsedURL.protocol === "https:";
   } catch {
     return false;
   }
