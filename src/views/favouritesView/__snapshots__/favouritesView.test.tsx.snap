@@ -1,0 +1,921 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<FavouritesView/> > should render correctly the favourite images 1`] = `
+<div>
+  <div
+    class="_favouriteCatViewContainer_28fdf7"
+  >
+    <h2
+      class="ant-typography _favouriteCatViewTitle_28fdf7 css-dev-only-do-not-override-1kf000u"
+    >
+      Favourite images
+    </h2>
+    <div
+      class="_favouriteCatViewRow_28fdf7"
+    >
+      <div
+        class="ant-card ant-card-bordered _favouritesCatCard_ca1681 css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-card-body"
+        >
+          <div
+            class="ant-image css-dev-only-do-not-override-1kf000u"
+          >
+            <img
+              class="ant-image-img _favouriteImage_ca1681 css-dev-only-do-not-override-1kf000u"
+              src="https://cdn2.thecatapi.com/images/bu1.jpg"
+            />
+            <div
+              class="ant-image-mask"
+            >
+              <div
+                class="ant-image-mask-info"
+              >
+                <span
+                  aria-label="eye"
+                  class="anticon anticon-eye"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="eye"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+                    />
+                  </svg>
+                </span>
+                Preview
+              </div>
+            </div>
+          </div>
+          <div
+            class="_actions_ca1681"
+          >
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              type="button"
+            >
+              <span>
+                View details
+              </span>
+            </button>
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              type="button"
+            >
+              <span
+                aria-label="delete"
+                class="anticon anticon-delete"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="delete"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z"
+                  />
+                </svg>
+              </span>
+              <span>
+                Remove
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-card ant-card-bordered _favouritesCatCard_ca1681 css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-card-body"
+        >
+          <div
+            class="ant-image css-dev-only-do-not-override-1kf000u"
+          >
+            <img
+              class="ant-image-img _favouriteImage_ca1681 css-dev-only-do-not-override-1kf000u"
+              src="https://cdn2.thecatapi.com/images/LIQSvUemz.jpg"
+            />
+            <div
+              class="ant-image-mask"
+            >
+              <div
+                class="ant-image-mask-info"
+              >
+                <span
+                  aria-label="eye"
+                  class="anticon anticon-eye"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="eye"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+                    />
+                  </svg>
+                </span>
+                Preview
+              </div>
+            </div>
+          </div>
+          <div
+            class="_actions_ca1681"
+          >
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              type="button"
+            >
+              <span>
+                View details
+              </span>
+            </button>
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              type="button"
+            >
+              <span
+                aria-label="delete"
+                class="anticon anticon-delete"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="delete"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z"
+                  />
+                </svg>
+              </span>
+              <span>
+                Remove
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-card ant-card-bordered _favouritesCatCard_ca1681 css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-card-body"
+        >
+          <div
+            class="ant-image css-dev-only-do-not-override-1kf000u"
+          >
+            <img
+              class="ant-image-img _favouriteImage_ca1681 css-dev-only-do-not-override-1kf000u"
+              src="https://cdn2.thecatapi.com/images/7l5.jpg"
+            />
+            <div
+              class="ant-image-mask"
+            >
+              <div
+                class="ant-image-mask-info"
+              >
+                <span
+                  aria-label="eye"
+                  class="anticon anticon-eye"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="eye"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+                    />
+                  </svg>
+                </span>
+                Preview
+              </div>
+            </div>
+          </div>
+          <div
+            class="_actions_ca1681"
+          >
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              type="button"
+            >
+              <span>
+                View details
+              </span>
+            </button>
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              type="button"
+            >
+              <span
+                aria-label="delete"
+                class="anticon anticon-delete"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="delete"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z"
+                  />
+                </svg>
+              </span>
+              <span>
+                Remove
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-card ant-card-bordered _favouritesCatCard_ca1681 css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-card-body"
+        >
+          <div
+            class="ant-image css-dev-only-do-not-override-1kf000u"
+          >
+            <img
+              class="ant-image-img _favouriteImage_ca1681 css-dev-only-do-not-override-1kf000u"
+              src="https://cdn2.thecatapi.com/images/njaF1fyqI.jpg"
+            />
+            <div
+              class="ant-image-mask"
+            >
+              <div
+                class="ant-image-mask-info"
+              >
+                <span
+                  aria-label="eye"
+                  class="anticon anticon-eye"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="eye"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+                    />
+                  </svg>
+                </span>
+                Preview
+              </div>
+            </div>
+          </div>
+          <div
+            class="_actions_ca1681"
+          >
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              type="button"
+            >
+              <span>
+                View details
+              </span>
+            </button>
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              type="button"
+            >
+              <span
+                aria-label="delete"
+                class="anticon anticon-delete"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="delete"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z"
+                  />
+                </svg>
+              </span>
+              <span>
+                Remove
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-card ant-card-bordered _favouritesCatCard_ca1681 css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-card-body"
+        >
+          <div
+            class="ant-image css-dev-only-do-not-override-1kf000u"
+          >
+            <img
+              class="ant-image-img _favouriteImage_ca1681 css-dev-only-do-not-override-1kf000u"
+              src="https://cdn2.thecatapi.com/images/unPP08xOZ.jpg"
+            />
+            <div
+              class="ant-image-mask"
+            >
+              <div
+                class="ant-image-mask-info"
+              >
+                <span
+                  aria-label="eye"
+                  class="anticon anticon-eye"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="eye"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+                    />
+                  </svg>
+                </span>
+                Preview
+              </div>
+            </div>
+          </div>
+          <div
+            class="_actions_ca1681"
+          >
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              type="button"
+            >
+              <span>
+                View details
+              </span>
+            </button>
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              type="button"
+            >
+              <span
+                aria-label="delete"
+                class="anticon anticon-delete"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="delete"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z"
+                  />
+                </svg>
+              </span>
+              <span>
+                Remove
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-card ant-card-bordered _favouritesCatCard_ca1681 css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-card-body"
+        >
+          <div
+            class="ant-image css-dev-only-do-not-override-1kf000u"
+          >
+            <img
+              class="ant-image-img _favouriteImage_ca1681 css-dev-only-do-not-override-1kf000u"
+              src="https://cdn2.thecatapi.com/images/MjAxMTk1Mw.jpg"
+            />
+            <div
+              class="ant-image-mask"
+            >
+              <div
+                class="ant-image-mask-info"
+              >
+                <span
+                  aria-label="eye"
+                  class="anticon anticon-eye"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="eye"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+                    />
+                  </svg>
+                </span>
+                Preview
+              </div>
+            </div>
+          </div>
+          <div
+            class="_actions_ca1681"
+          >
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              type="button"
+            >
+              <span>
+                View details
+              </span>
+            </button>
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              type="button"
+            >
+              <span
+                aria-label="delete"
+                class="anticon anticon-delete"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="delete"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z"
+                  />
+                </svg>
+              </span>
+              <span>
+                Remove
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-card ant-card-bordered _favouritesCatCard_ca1681 css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-card-body"
+        >
+          <div
+            class="ant-image css-dev-only-do-not-override-1kf000u"
+          >
+            <img
+              class="ant-image-img _favouriteImage_ca1681 css-dev-only-do-not-override-1kf000u"
+              src="https://cdn2.thecatapi.com/images/aai.jpg"
+            />
+            <div
+              class="ant-image-mask"
+            >
+              <div
+                class="ant-image-mask-info"
+              >
+                <span
+                  aria-label="eye"
+                  class="anticon anticon-eye"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="eye"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+                    />
+                  </svg>
+                </span>
+                Preview
+              </div>
+            </div>
+          </div>
+          <div
+            class="_actions_ca1681"
+          >
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              type="button"
+            >
+              <span>
+                View details
+              </span>
+            </button>
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              type="button"
+            >
+              <span
+                aria-label="delete"
+                class="anticon anticon-delete"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="delete"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z"
+                  />
+                </svg>
+              </span>
+              <span>
+                Remove
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-card ant-card-bordered _favouritesCatCard_ca1681 css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-card-body"
+        >
+          <div
+            class="ant-image css-dev-only-do-not-override-1kf000u"
+          >
+            <img
+              class="ant-image-img _favouriteImage_ca1681 css-dev-only-do-not-override-1kf000u"
+              src="https://cdn2.thecatapi.com/images/542.gif"
+            />
+            <div
+              class="ant-image-mask"
+            >
+              <div
+                class="ant-image-mask-info"
+              >
+                <span
+                  aria-label="eye"
+                  class="anticon anticon-eye"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="eye"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+                    />
+                  </svg>
+                </span>
+                Preview
+              </div>
+            </div>
+          </div>
+          <div
+            class="_actions_ca1681"
+          >
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+              type="button"
+            >
+              <span>
+                View details
+              </span>
+            </button>
+            <button
+              class="ant-btn css-dev-only-do-not-override-1kf000u ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              type="button"
+            >
+              <span
+                aria-label="delete"
+                class="anticon anticon-delete"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="delete"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z"
+                  />
+                </svg>
+              </span>
+              <span>
+                Remove
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FavouritesView/> > should render correctly with skeletons in loading state 1`] = `
+<div>
+  <div
+    class="_favouriteCatViewContainer_28fdf7"
+  >
+    <h2
+      class="ant-typography _favouriteCatViewTitle_28fdf7 css-dev-only-do-not-override-1kf000u"
+    >
+      Favourite images
+    </h2>
+    <div
+      class="_favouriteCatViewRow_28fdf7"
+    >
+      <div
+        class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-skeleton-image"
+          style="width: 366px; height: 536px;"
+        >
+          <svg
+            class="ant-skeleton-image-svg"
+            viewBox="0 0 1098 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Image placeholder
+            </title>
+            <path
+              class="ant-skeleton-image-path"
+              d="M365.714286 329.142857q0 45.714286-32.036571 77.677714t-77.677714 32.036571-77.677714-32.036571-32.036571-77.677714 32.036571-77.677714 77.677714-32.036571 77.677714 32.036571 32.036571 77.677714zM950.857143 548.571429l0 256-804.571429 0 0-109.714286 182.857143-182.857143 91.428571 91.428571 292.571429-292.571429zM1005.714286 146.285714l-914.285714 0q-7.460571 0-12.873143 5.412571t-5.412571 12.873143l0 694.857143q0 7.460571 5.412571 12.873143t12.873143 5.412571l914.285714 0q7.460571 0 12.873143-5.412571t5.412571-12.873143l0-694.857143q0-7.460571-5.412571-12.873143t-12.873143-5.412571zM1097.142857 164.571429l0 694.857143q0 37.741714-26.843429 64.585143t-64.585143 26.843429l-914.285714 0q-37.741714 0-64.585143-26.843429t-26.843429-64.585143l0-694.857143q0-37.741714 26.843429-64.585143t64.585143-26.843429l914.285714 0q37.741714 0 64.585143 26.843429t26.843429 64.585143z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-skeleton-image"
+          style="width: 366px; height: 536px;"
+        >
+          <svg
+            class="ant-skeleton-image-svg"
+            viewBox="0 0 1098 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Image placeholder
+            </title>
+            <path
+              class="ant-skeleton-image-path"
+              d="M365.714286 329.142857q0 45.714286-32.036571 77.677714t-77.677714 32.036571-77.677714-32.036571-32.036571-77.677714 32.036571-77.677714 77.677714-32.036571 77.677714 32.036571 32.036571 77.677714zM950.857143 548.571429l0 256-804.571429 0 0-109.714286 182.857143-182.857143 91.428571 91.428571 292.571429-292.571429zM1005.714286 146.285714l-914.285714 0q-7.460571 0-12.873143 5.412571t-5.412571 12.873143l0 694.857143q0 7.460571 5.412571 12.873143t12.873143 5.412571l914.285714 0q7.460571 0 12.873143-5.412571t5.412571-12.873143l0-694.857143q0-7.460571-5.412571-12.873143t-12.873143-5.412571zM1097.142857 164.571429l0 694.857143q0 37.741714-26.843429 64.585143t-64.585143 26.843429l-914.285714 0q-37.741714 0-64.585143-26.843429t-26.843429-64.585143l0-694.857143q0-37.741714 26.843429-64.585143t64.585143-26.843429l914.285714 0q37.741714 0 64.585143 26.843429t26.843429 64.585143z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-skeleton-image"
+          style="width: 366px; height: 536px;"
+        >
+          <svg
+            class="ant-skeleton-image-svg"
+            viewBox="0 0 1098 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Image placeholder
+            </title>
+            <path
+              class="ant-skeleton-image-path"
+              d="M365.714286 329.142857q0 45.714286-32.036571 77.677714t-77.677714 32.036571-77.677714-32.036571-32.036571-77.677714 32.036571-77.677714 77.677714-32.036571 77.677714 32.036571 32.036571 77.677714zM950.857143 548.571429l0 256-804.571429 0 0-109.714286 182.857143-182.857143 91.428571 91.428571 292.571429-292.571429zM1005.714286 146.285714l-914.285714 0q-7.460571 0-12.873143 5.412571t-5.412571 12.873143l0 694.857143q0 7.460571 5.412571 12.873143t12.873143 5.412571l914.285714 0q7.460571 0 12.873143-5.412571t5.412571-12.873143l0-694.857143q0-7.460571-5.412571-12.873143t-12.873143-5.412571zM1097.142857 164.571429l0 694.857143q0 37.741714-26.843429 64.585143t-64.585143 26.843429l-914.285714 0q-37.741714 0-64.585143-26.843429t-26.843429-64.585143l0-694.857143q0-37.741714 26.843429-64.585143t64.585143-26.843429l914.285714 0q37.741714 0 64.585143 26.843429t26.843429 64.585143z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-skeleton-image"
+          style="width: 366px; height: 536px;"
+        >
+          <svg
+            class="ant-skeleton-image-svg"
+            viewBox="0 0 1098 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Image placeholder
+            </title>
+            <path
+              class="ant-skeleton-image-path"
+              d="M365.714286 329.142857q0 45.714286-32.036571 77.677714t-77.677714 32.036571-77.677714-32.036571-32.036571-77.677714 32.036571-77.677714 77.677714-32.036571 77.677714 32.036571 32.036571 77.677714zM950.857143 548.571429l0 256-804.571429 0 0-109.714286 182.857143-182.857143 91.428571 91.428571 292.571429-292.571429zM1005.714286 146.285714l-914.285714 0q-7.460571 0-12.873143 5.412571t-5.412571 12.873143l0 694.857143q0 7.460571 5.412571 12.873143t12.873143 5.412571l914.285714 0q7.460571 0 12.873143-5.412571t5.412571-12.873143l0-694.857143q0-7.460571-5.412571-12.873143t-12.873143-5.412571zM1097.142857 164.571429l0 694.857143q0 37.741714-26.843429 64.585143t-64.585143 26.843429l-914.285714 0q-37.741714 0-64.585143-26.843429t-26.843429-64.585143l0-694.857143q0-37.741714 26.843429-64.585143t64.585143-26.843429l914.285714 0q37.741714 0 64.585143 26.843429t26.843429 64.585143z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-skeleton-image"
+          style="width: 366px; height: 536px;"
+        >
+          <svg
+            class="ant-skeleton-image-svg"
+            viewBox="0 0 1098 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Image placeholder
+            </title>
+            <path
+              class="ant-skeleton-image-path"
+              d="M365.714286 329.142857q0 45.714286-32.036571 77.677714t-77.677714 32.036571-77.677714-32.036571-32.036571-77.677714 32.036571-77.677714 77.677714-32.036571 77.677714 32.036571 32.036571 77.677714zM950.857143 548.571429l0 256-804.571429 0 0-109.714286 182.857143-182.857143 91.428571 91.428571 292.571429-292.571429zM1005.714286 146.285714l-914.285714 0q-7.460571 0-12.873143 5.412571t-5.412571 12.873143l0 694.857143q0 7.460571 5.412571 12.873143t12.873143 5.412571l914.285714 0q7.460571 0 12.873143-5.412571t5.412571-12.873143l0-694.857143q0-7.460571-5.412571-12.873143t-12.873143-5.412571zM1097.142857 164.571429l0 694.857143q0 37.741714-26.843429 64.585143t-64.585143 26.843429l-914.285714 0q-37.741714 0-64.585143-26.843429t-26.843429-64.585143l0-694.857143q0-37.741714 26.843429-64.585143t64.585143-26.843429l914.285714 0q37.741714 0 64.585143 26.843429t26.843429 64.585143z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-skeleton-image"
+          style="width: 366px; height: 536px;"
+        >
+          <svg
+            class="ant-skeleton-image-svg"
+            viewBox="0 0 1098 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Image placeholder
+            </title>
+            <path
+              class="ant-skeleton-image-path"
+              d="M365.714286 329.142857q0 45.714286-32.036571 77.677714t-77.677714 32.036571-77.677714-32.036571-32.036571-77.677714 32.036571-77.677714 77.677714-32.036571 77.677714 32.036571 32.036571 77.677714zM950.857143 548.571429l0 256-804.571429 0 0-109.714286 182.857143-182.857143 91.428571 91.428571 292.571429-292.571429zM1005.714286 146.285714l-914.285714 0q-7.460571 0-12.873143 5.412571t-5.412571 12.873143l0 694.857143q0 7.460571 5.412571 12.873143t12.873143 5.412571l914.285714 0q7.460571 0 12.873143-5.412571t5.412571-12.873143l0-694.857143q0-7.460571-5.412571-12.873143t-12.873143-5.412571zM1097.142857 164.571429l0 694.857143q0 37.741714-26.843429 64.585143t-64.585143 26.843429l-914.285714 0q-37.741714 0-64.585143-26.843429t-26.843429-64.585143l0-694.857143q0-37.741714 26.843429-64.585143t64.585143-26.843429l914.285714 0q37.741714 0 64.585143 26.843429t26.843429 64.585143z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-skeleton-image"
+          style="width: 366px; height: 536px;"
+        >
+          <svg
+            class="ant-skeleton-image-svg"
+            viewBox="0 0 1098 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Image placeholder
+            </title>
+            <path
+              class="ant-skeleton-image-path"
+              d="M365.714286 329.142857q0 45.714286-32.036571 77.677714t-77.677714 32.036571-77.677714-32.036571-32.036571-77.677714 32.036571-77.677714 77.677714-32.036571 77.677714 32.036571 32.036571 77.677714zM950.857143 548.571429l0 256-804.571429 0 0-109.714286 182.857143-182.857143 91.428571 91.428571 292.571429-292.571429zM1005.714286 146.285714l-914.285714 0q-7.460571 0-12.873143 5.412571t-5.412571 12.873143l0 694.857143q0 7.460571 5.412571 12.873143t12.873143 5.412571l914.285714 0q7.460571 0 12.873143-5.412571t5.412571-12.873143l0-694.857143q0-7.460571-5.412571-12.873143t-12.873143-5.412571zM1097.142857 164.571429l0 694.857143q0 37.741714-26.843429 64.585143t-64.585143 26.843429l-914.285714 0q-37.741714 0-64.585143-26.843429t-26.843429-64.585143l0-694.857143q0-37.741714 26.843429-64.585143t64.585143-26.843429l914.285714 0q37.741714 0 64.585143 26.843429t26.843429 64.585143z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-skeleton-image"
+          style="width: 366px; height: 536px;"
+        >
+          <svg
+            class="ant-skeleton-image-svg"
+            viewBox="0 0 1098 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Image placeholder
+            </title>
+            <path
+              class="ant-skeleton-image-path"
+              d="M365.714286 329.142857q0 45.714286-32.036571 77.677714t-77.677714 32.036571-77.677714-32.036571-32.036571-77.677714 32.036571-77.677714 77.677714-32.036571 77.677714 32.036571 32.036571 77.677714zM950.857143 548.571429l0 256-804.571429 0 0-109.714286 182.857143-182.857143 91.428571 91.428571 292.571429-292.571429zM1005.714286 146.285714l-914.285714 0q-7.460571 0-12.873143 5.412571t-5.412571 12.873143l0 694.857143q0 7.460571 5.412571 12.873143t12.873143 5.412571l914.285714 0q7.460571 0 12.873143-5.412571t5.412571-12.873143l0-694.857143q0-7.460571-5.412571-12.873143t-12.873143-5.412571zM1097.142857 164.571429l0 694.857143q0 37.741714-26.843429 64.585143t-64.585143 26.843429l-914.285714 0q-37.741714 0-64.585143-26.843429t-26.843429-64.585143l0-694.857143q0-37.741714 26.843429-64.585143t64.585143-26.843429l914.285714 0q37.741714 0 64.585143 26.843429t26.843429 64.585143z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-skeleton-image"
+          style="width: 366px; height: 536px;"
+        >
+          <svg
+            class="ant-skeleton-image-svg"
+            viewBox="0 0 1098 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Image placeholder
+            </title>
+            <path
+              class="ant-skeleton-image-path"
+              d="M365.714286 329.142857q0 45.714286-32.036571 77.677714t-77.677714 32.036571-77.677714-32.036571-32.036571-77.677714 32.036571-77.677714 77.677714-32.036571 77.677714 32.036571 32.036571 77.677714zM950.857143 548.571429l0 256-804.571429 0 0-109.714286 182.857143-182.857143 91.428571 91.428571 292.571429-292.571429zM1005.714286 146.285714l-914.285714 0q-7.460571 0-12.873143 5.412571t-5.412571 12.873143l0 694.857143q0 7.460571 5.412571 12.873143t12.873143 5.412571l914.285714 0q7.460571 0 12.873143-5.412571t5.412571-12.873143l0-694.857143q0-7.460571-5.412571-12.873143t-12.873143-5.412571zM1097.142857 164.571429l0 694.857143q0 37.741714-26.843429 64.585143t-64.585143 26.843429l-914.285714 0q-37.741714 0-64.585143-26.843429t-26.843429-64.585143l0-694.857143q0-37.741714 26.843429-64.585143t64.585143-26.843429l914.285714 0q37.741714 0 64.585143 26.843429t26.843429 64.585143z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="ant-skeleton ant-skeleton-element ant-skeleton-active css-dev-only-do-not-override-1kf000u"
+      >
+        <div
+          class="ant-skeleton-image"
+          style="width: 366px; height: 536px;"
+        >
+          <svg
+            class="ant-skeleton-image-svg"
+            viewBox="0 0 1098 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Image placeholder
+            </title>
+            <path
+              class="ant-skeleton-image-path"
+              d="M365.714286 329.142857q0 45.714286-32.036571 77.677714t-77.677714 32.036571-77.677714-32.036571-32.036571-77.677714 32.036571-77.677714 77.677714-32.036571 77.677714 32.036571 32.036571 77.677714zM950.857143 548.571429l0 256-804.571429 0 0-109.714286 182.857143-182.857143 91.428571 91.428571 292.571429-292.571429zM1005.714286 146.285714l-914.285714 0q-7.460571 0-12.873143 5.412571t-5.412571 12.873143l0 694.857143q0 7.460571 5.412571 12.873143t12.873143 5.412571l914.285714 0q7.460571 0 12.873143-5.412571t5.412571-12.873143l0-694.857143q0-7.460571-5.412571-12.873143t-12.873143-5.412571zM1097.142857 164.571429l0 694.857143q0 37.741714-26.843429 64.585143t-64.585143 26.843429l-914.285714 0q-37.741714 0-64.585143-26.843429t-26.843429-64.585143l0-694.857143q0-37.741714 26.843429-64.585143t64.585143-26.843429l914.285714 0q37.741714 0 64.585143 26.843429t26.843429 64.585143z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

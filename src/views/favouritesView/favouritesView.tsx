@@ -24,7 +24,6 @@ export default function FavouritesView() {
     theCatAPI.favourites
       .getFavourites()
       .then((favouriteImages) => {
-        console.log(favouriteImages);
         setFavouriteEntries([...favouriteImages]);
       })
       .catch((error) => {

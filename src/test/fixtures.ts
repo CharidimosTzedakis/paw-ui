@@ -1,4 +1,4 @@
-import type { Image } from "@api/types";
+import type { Image, Favourite } from "@api/types";
 
 export const catImages: Image[] = [
   {
@@ -686,5 +686,96 @@ export const catImagesBirmanBreed: Image[] = [
     url: "https://cdn2.thecatapi.com/images/yZE2JpeXz.jpg",
     width: 1280,
     height: 720,
+  },
+];
+
+export const favouriteImagesEntries: Favourite[] = [
+  {
+    id: 232504658,
+    userId: "aciy48",
+    imageId: "bu1",
+    subId: null,
+    createdAt: new Date("2024-12-22T09:10:52.000Z"),
+    image: {
+      id: "bu1",
+      url: "https://cdn2.thecatapi.com/images/bu1.jpg",
+    },
+  },
+  {
+    id: 232504659,
+    userId: "aciy48",
+    imageId: "LIQSvUemz",
+    subId: null,
+    createdAt: new Date("2024-12-22T09:11:01.000Z"),
+    image: {
+      id: "LIQSvUemz",
+      url: "https://cdn2.thecatapi.com/images/LIQSvUemz.jpg",
+    },
+  },
+  {
+    id: 232504759,
+    userId: "aciy48",
+    imageId: "7l5",
+    subId: null,
+    createdAt: new Date("2024-12-22T19:33:04.000Z"),
+    image: {
+      id: "7l5",
+      url: "https://cdn2.thecatapi.com/images/7l5.jpg",
+    },
+  },
+  {
+    id: 232504760,
+    userId: "aciy48",
+    imageId: "njaF1fyqI",
+    subId: null,
+    createdAt: new Date("2024-12-22T19:33:09.000Z"),
+    image: {
+      id: "njaF1fyqI",
+      url: "https://cdn2.thecatapi.com/images/njaF1fyqI.jpg",
+    },
+  },
+  {
+    id: 232505761,
+    userId: "aciy48",
+    imageId: "unPP08xOZ",
+    subId: null,
+    createdAt: new Date("2024-12-24T11:49:14.000Z"),
+    image: {
+      id: "unPP08xOZ",
+      url: "https://cdn2.thecatapi.com/images/unPP08xOZ.jpg",
+    },
+  },
+  {
+    id: 232505788,
+    userId: "aciy48",
+    imageId: "MjAxMTk1Mw",
+    subId: null,
+    createdAt: new Date("2024-12-24T12:53:48.000Z"),
+    image: {
+      id: "MjAxMTk1Mw",
+      url: "https://cdn2.thecatapi.com/images/MjAxMTk1Mw.jpg",
+    },
+  },
+  {
+    id: 232506900,
+    userId: "aciy48",
+    imageId: "aai",
+    subId: null,
+    createdAt: new Date("2024-12-27T13:36:57.000Z"),
+    image: {
+      id: "aai",
+      url: "https://cdn2.thecatapi.com/images/aai.jpg",
+    },
+  },
+  {
+    id: 232506901,
+    userId: "aciy48",
+    imageId: "542",
+    subId: null,
+    createdAt: new Date("2024-12-27T13:37:01.000Z"),
+    image: {
+      id: "542",
+      url: "https://cdn2.thecatapi.com/images/542.gif",
+    },
   },
 ];
