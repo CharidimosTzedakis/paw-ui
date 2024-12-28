@@ -22,7 +22,7 @@ li {
 }
 
 [role="dialog"] > [tabindex="0"] {
-  outline: none;
+  outline: none !important;
 }
 
 a[tabindex="0"] {
