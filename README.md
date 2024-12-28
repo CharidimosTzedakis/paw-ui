@@ -21,16 +21,48 @@ Once you have built your app, share your code in the mean suits you best
 Good luck, potential colleague!
 
 ## Getting started
+prerequisites:
+- node v20 or later
+- pnpm v8 or later
+
+1. Install dependencies:
+```bash
+pnpm i
+```
+2. Put your cat api key in the .env file (or create a .env.local file with the corresponding entry). You can get your
+api key from https://thecatapi.com/ by providing your email.
+3. Start the project
+```bash
+pnpm run dev
+```
+4. Run the unit tests:
+```bash
+pnpm run test
+```
 
 ## Implementation notes
+- developed the solution using the antd component library
+- used a virtualized list solution to enable the user to load as many pictures as desired
+- works for desktop and mobile viewports
+- used the @thatapicompany/thecatapi package for the requests and for the api type safety
+- improved accessibility with keyboard usage of the app
+- provided adequate unit testing coverage
+- The console error "refused to set unsafe header 'user-agent'" is because of the line:
+https://github.com/thatapicompany/thecatapi/blob/main/src/services/ApiRequest/ApiRequest.ts#L82
+in the @thatapicompany/thecatapi that was used for making the requests. Although that it is stated that this library can
+be used in frontend as well in the npm registry, it tries to set the user-agent header.
+
 
 ## Next steps
+If the development of the project would continue, the following improvements could be made:
+
  - error messages/failed states
-   - now UI remains in loading state if something goes wrong and does not give feedback
-   - maybe an alert that something went wrong
+   - now UI remains in loading state if something goes wrong and does not give feedback of the error
+   - maybe an alert that something went wrong or an error state for the UI
+   - react error boundaries to specific parts of the app, eg the modal routes, to make the app more resilient
  - use react-query for data fetching
-   - breed modal would benefit from caching
-   - optimistic updates for add to favourites
- - would use progress component to show in a 5 scale
- - accessibility improvements with keyboard support
- - pagination for easiest browsing of the favourite images
+   - explore breeds modal would benefit from caching
+ - As a UI improvement, antd progress component (https://ant.design/components/progress) could be used, to show in a 5
+ number scale more information about the breed (eg energy level, affection level)
+ - pagination for easiest browsing of the favourite images, if their number is more than a few
+ - some integration and e2e tests using cypress
