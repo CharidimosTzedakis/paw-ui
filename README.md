@@ -29,7 +29,7 @@ prerequisites:
 ```bash
 pnpm i
 ```
-2. Put your cat api key in the .env file (or create a .env.local file with the corresponding entry). You can get your
+2. Put your cat api key in the `.env` file in the prepared env variable (or create a `.env.local` file with the corresponding entry). You can get your
 api key from https://thecatapi.com/ by providing your email.
 3. Start the project
 ```bash
@@ -39,19 +39,17 @@ pnpm run dev
 ```bash
 pnpm run test
 ```
-
 ## Implementation notes
 - developed the solution using the antd component library
 - used a virtualized list solution to enable the user to load as many pictures as desired
 - works for desktop and mobile viewports
-- used the @thatapicompany/thecatapi package for the requests and for the api type safety
+- used the @thatapicompany/thecatapi package for the requests and for the api types
 - improved accessibility with keyboard usage of the app
 - provided adequate unit testing coverage
 - The console error "refused to set unsafe header 'user-agent'" is because of the line:
 https://github.com/thatapicompany/thecatapi/blob/main/src/services/ApiRequest/ApiRequest.ts#L82
-in the @thatapicompany/thecatapi that was used for making the requests. Although that it is stated that this library can
-be used in frontend as well in the npm registry, it tries to set the user-agent header.
-
+in the @thatapicompany/thecatapi that was used for making the requests. From the npm registry description, I figured
+it could be used in the frontend as well. However, it tries to setup the user-agent header. 
 
 ## Next steps
 If the development of the project would continue, the following improvements could be made:
@@ -61,7 +59,7 @@ If the development of the project would continue, the following improvements cou
    - maybe an alert that something went wrong or an error state for the UI
    - react error boundaries to specific parts of the app, eg the modal routes, to make the app more resilient
  - use react-query for data fetching
-   - explore breeds modal would benefit from caching
+   - explore breeds modal would benefit from caching, because the breeds and the cat images for that breeds are specific
  - As a UI improvement, antd progress component (https://ant.design/components/progress) could be used, to show in a 5
  number scale more information about the breed (eg energy level, affection level)
  - pagination for easiest browsing of the favourite images, if their number is more than a few
