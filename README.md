@@ -41,6 +41,7 @@ pnpm run test
 ```
 ## Implementation notes
 - developed the solution using the antd component library
+- light and dark theme
 - used a virtualized list solution to enable the user to load as many pictures as desired
 - works for desktop and mobile viewports
 - used the @thatapicompany/thecatapi package for the requests and for the api types
