@@ -33,10 +33,13 @@ const isEntryWithValueType =
 export default function BreedDetails({ breed }: { breed: Breed }) {
   const breedPropsWithText = Object.entries(breed)
     .filter(isEntryWithValueType("string"))
-    .filter(([key]) => !omittedProps.includes(key));
-  const breedPropsWithURLs = breedPropsWithText.filter((entry) =>
-    isValidURL(entry[1]),
-  );
+    .filter(([key]) => !omittedProps.includes(key))
+    .filter((entry) => !isValidURL(entry[1]));
+
+  const breedPropsWithURLs = Object.entries(breed)
+    .filter(isEntryWithValueType("string"))
+    .filter(([key]) => !omittedProps.includes(key))
+    .filter((entry) => isValidURL(entry[1]));
 
   return (
     <ul>
