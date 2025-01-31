@@ -4,7 +4,7 @@ export function snakeToTitleCase(str: string): string {
   return startCase(toLower(str.replace(/_+/g, " "))).trim();
 }
 
-export function isValidURL(url: string): boolean {
+export function isValidURL(url: string) {
   try {
     const parsedURL = new URL(url);
     return parsedURL.protocol === "http:" || parsedURL.protocol === "https:";

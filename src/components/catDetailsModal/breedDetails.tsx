@@ -25,33 +25,32 @@ const BreedProperty = ({
   );
 };
 
-export default function BreedDetails({ breed }: { breed: Breed }) {
-  const keysWithStringValues = Object.keys(breed)
-    .filter((key) => typeof breed[key] === "string")
-    .filter((key) => !omittedProps.includes(key))
-    .filter((key) => !isValidURL(breed[key])) as Array<keyof Breed>;
+const isEntryWithValueType =
+  (type: string) =>
+  (entry: [keyof Breed, Breed[keyof Breed]]): entry is [keyof Breed, string] =>
+    typeof entry[1] === type;
 
-  const keysWithURLs = Object.keys(breed)
-    .filter((key) => typeof breed[key] === "string")
-    .filter((key) => !omittedProps.includes(key))
-    .filter((key) => isValidURL(breed[key] as string)) as Array<keyof Breed>;
+export default function BreedDetails({ breed }: { breed: Breed }) {
+  const breedPropsWithText = Object.entries(breed)
+    .filter(isEntryWithValueType("string"))
+    .filter(([key]) => !omittedProps.includes(key));
+  const breedPropsWithURLs = breedPropsWithText.filter((entry) =>
+    isValidURL(entry[1]),
+  );
 
   return (
     <ul>
-      {keysWithStringValues.map((key) => {
-        const value = breed[key] as string;
-
+      {breedPropsWithText.map(([key, value]) => {
         return (
           <BreedProperty
-            breedId={breed["id"] as string}
+            breedId={breed["id"]}
             key={key}
             propKey={key}
             value={value}
           />
         );
       })}
-      {keysWithURLs.map((key) => {
-        const value = breed[key] as string;
+      {breedPropsWithURLs.map(([key, value]) => {
         return (
           <li key={key}>
             <strong>{snakeToTitleCase(key)}: </strong>
