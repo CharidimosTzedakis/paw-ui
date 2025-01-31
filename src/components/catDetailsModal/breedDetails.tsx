@@ -27,18 +27,14 @@ const BreedProperty = ({
 
 export default function BreedDetails({ breed }: { breed: Breed }) {
   const keysWithStringValues = Object.keys(breed)
-    .filter((key) => typeof breed[key as keyof Breed] === "string")
+    .filter((key) => typeof breed[key] === "string")
     .filter((key) => !omittedProps.includes(key))
-    .filter((key) => !isValidURL(breed[key as keyof Breed] as string)) as Array<
-    keyof Breed
-  >;
+    .filter((key) => !isValidURL(breed[key])) as Array<keyof Breed>;
 
   const keysWithURLs = Object.keys(breed)
-    .filter((key) => typeof breed[key as keyof Breed] === "string")
+    .filter((key) => typeof breed[key] === "string")
     .filter((key) => !omittedProps.includes(key))
-    .filter((key) => isValidURL(breed[key as keyof Breed] as string)) as Array<
-    keyof Breed
-  >;
+    .filter((key) => isValidURL(breed[key] as string)) as Array<keyof Breed>;
 
   return (
     <ul>
