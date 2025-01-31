@@ -10,7 +10,12 @@ export default function CatViewGridCell({
 }: {
   columnIndex: number;
   rowIndex: number;
-  style: CSSProperties;
+  style: CSSProperties & {
+    left: number;
+    top: number;
+    width: number;
+    height: number;
+  };
   data: {
     topGap: number;
     leftGap: number;
@@ -24,10 +29,10 @@ export default function CatViewGridCell({
   const catImage = catImages[index];
   const newStyle = {
     ...style,
-    left: (style.left as number) + leftGap * columnIndex,
-    top: (style.top as number) + topGap * rowIndex,
-    width: (style.width as number) - leftGap,
-    height: (style.height as number) - topGap,
+    left: style.left + leftGap * columnIndex,
+    top: style.top + topGap * rowIndex,
+    width: style.width - leftGap,
+    height: style.height - topGap,
   };
 
   return (
