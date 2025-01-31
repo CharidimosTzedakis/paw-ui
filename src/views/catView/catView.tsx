@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { FixedSizeGrid as Grid } from "react-window";
 import AutoSizer from "react-virtualized-auto-sizer";
 import { debounce } from "lodash";
+import { useQuery } from "@tanstack/react-query";
+import { v4 as uuidv4 } from "uuid";
 import CatViewGridCell from "./catViewGridCell";
 import { Button, Typography } from "antd";
 import theCatAPI from "@api/catApiClient";
@@ -14,40 +16,29 @@ const CatView = () => {
   const [catImages, setCatImages] = useState<(CatImage | null)[]>(
     new Array(10).fill(null),
   );
-  const [fetched, setFetched] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
   const [resizeTrigger, setResizeTrigger] = useState(0);
+  const [imageBatchId, setImageBatchId] = useState(() => uuidv4());
+
+  const { data, isFetching } = useQuery({
+    queryKey: ["catImages", imageBatchId],
+    queryFn: () => theCatAPI.images.searchImages({ limit: 10 }),
+    placeholderData: new Array(10).fill(null),
+    refetchOnWindowFocus: false,
+    staleTime: Infinity,
+  });
 
   const handleLoadMore = () => {
-    setFetched(false);
-    setCatImages((prevCatImages) => [
-      ...prevCatImages,
-      ...new Array(10).fill(null),
-    ]);
+    setImageBatchId(uuidv4());
   };
 
   useEffect(() => {
-    if (fetched) {
-      return;
+    if (data) {
+      setCatImages((catImages) => [
+        ...catImages.filter((image) => Boolean(image)),
+        ...data,
+      ]);
     }
-
-    setIsLoading(true);
-    theCatAPI.images
-      .searchImages({
-        limit: 10,
-      })
-      .then((images) => {
-        setCatImages([
-          ...catImages.filter((image) => Boolean(image)),
-          ...images,
-        ]);
-        setFetched(true);
-        setIsLoading(false);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }, [catImages, fetched]);
+  }, [data]);
 
   useEffect(() => {
     const handleResize = debounce(
@@ -101,7 +92,7 @@ const CatView = () => {
           type="primary"
           className={classes.loadMoreButton}
           onClick={handleLoadMore}
-          disabled={isLoading}
+          disabled={isFetching}
           tabIndex={0}
         >
           Load more
